@@ -1,0 +1,3 @@
+[submodule ".\\external\\MixedReality-SpectatorView"]
+	path = .\\external\\MixedReality-SpectatorView
+	url = https://github.com/akihiro0105/MixedReality-SpectatorView.git
