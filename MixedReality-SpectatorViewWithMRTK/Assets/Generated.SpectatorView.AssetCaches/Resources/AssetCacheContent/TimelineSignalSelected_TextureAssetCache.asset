@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineSignalSelected_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 1a7852b1-b33b-8164-98b6-af1e739f5995
+      fileIdentifier: 2800000
+      name: TimelineSignalSelected
+    Asset: {fileID: 2800000, guid: 1a7852b1b33b816498b6af1e739f5995, type: 3}
+  - AssetId:
+      guid:
+        m_storage: a5e21f4e-4666-9064-5980-dd0cf0b664bc
+      fileIdentifier: 2800000
+      name: TimelineSignalSelected
+    Asset: {fileID: 2800000, guid: a5e21f4e466690645980dd0cf0b664bc, type: 3}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625624261b85e0d44aa89661d75fbd46, type: 3}
+  m_Name: TextMeshProFontAssetCache
+  m_EditorClassIdentifier: 
+  assets:
+  - Name: LiberationSans SDF
+    Ids:
+    - guid:
+        m_storage: 8f586378-b4e1-44a9-851e-7b34d9b748ee
+      fileIdentifier: 11400000
+      name: LiberationSans SDF
+  - Name: LiberationSans SDF - Fallback
+    Ids:
+    - guid:
+        m_storage: 2e498d1c-8094-9104-79dc-3e1b768306a4
+      fileIdentifier: 11400000
+      name: LiberationSans SDF - Fallback
+  - Name: segoeui SDF
+    Ids:
+    - guid:
+        m_storage: afc8299d-5d5b-bd44-0a06-16c8ecbc7217
+      fileIdentifier: 11400000
+      name: segoeui SDF
+  - Name: segoeuib SDF
+    Ids:
+    - guid:
+        m_storage: f137eba1-2ee1-0834-cb19-632437cfdb2e
+      fileIdentifier: 11400000
+      name: segoeuib SDF
+  - Name: segoeuil SDF
+    Ids:
+    - guid:
+        m_storage: cf40b52f-b347-8de4-ea4a-df277e3b75ef
+      fileIdentifier: 11400000
+      name: segoeuil SDF
+  - Name: segoeuisl SDF
+    Ids:
+    - guid:
+        m_storage: d94d0d64-ec35-45b4-08d5-621e7d27cf96
+      fileIdentifier: 11400000
+      name: segoeuisl SDF
+  - Name: seguibl SDF
+    Ids:
+    - guid:
+        m_storage: 8f255851-3126-7564-cab5-bbdafd36a94f
+      fileIdentifier: 11400000
+      name: seguibl SDF
+  - Name: seguisb SDF
+    Ids:
+    - guid:
+        m_storage: 6a84f857-bec7-e734-5843-ae29404c57ce
+      fileIdentifier: 11400000
+      name: seguisb SDF
+  - Name: seguisb SDF zwriteOff
+    Ids:
+    - guid:
+        m_storage: ad601d83-8b0f-b274-4937-cd5dad890e81
+      fileIdentifier: 11400000
+      name: seguisb SDF zwriteOff

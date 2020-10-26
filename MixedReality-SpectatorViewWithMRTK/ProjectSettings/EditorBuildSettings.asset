@@ -4,7 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/SpectatorViewWithMRTK/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Packages/com.microsoft.mixedreality.spectatorview/SpectatorView/Scenes/SpectatorView.ARFoundation.Spectator.unity
+    guid: 1e6ff34bb8b2cbb468b958b46f1aa620
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 551485be0bf777f43b2293ae2c8ecd64,
+      type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ea4c60d8369faa443b906756ce97954b,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5319d5b4e5fd49c41a5d6f0ec8004dc5,
       type: 2}

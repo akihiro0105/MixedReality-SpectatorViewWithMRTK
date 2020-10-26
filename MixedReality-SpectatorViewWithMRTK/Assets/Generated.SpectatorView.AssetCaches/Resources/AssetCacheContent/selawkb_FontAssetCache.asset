@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: selawkb_FontAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: a99e8b1e-d115-4eb5-8270-cc6a18605657
+      fileIdentifier: 12800000
+      name: selawkb
+    Asset: {fileID: 12800000, guid: a99e8b1ed1154eb58270cc6a18605657, type: 3}

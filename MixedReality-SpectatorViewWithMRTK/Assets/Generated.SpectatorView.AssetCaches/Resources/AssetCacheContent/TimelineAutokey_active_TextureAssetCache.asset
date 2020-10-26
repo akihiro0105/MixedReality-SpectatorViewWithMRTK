@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineAutokey_active_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 0a5e3e06-3c4e-1ab4-5999-cf6e40c13c07
+      fileIdentifier: 2800000
+      name: TimelineAutokey_active
+    Asset: {fileID: 2800000, guid: 0a5e3e063c4e1ab45999cf6e40c13c07, type: 3}
+  - AssetId:
+      guid:
+        m_storage: e17ee608-87ef-dd04-3899-91a15ee0c578
+      fileIdentifier: 2800000
+      name: TimelineAutokey_active
+    Asset: {fileID: 2800000, guid: e17ee60887efdd04389991a15ee0c578, type: 3}

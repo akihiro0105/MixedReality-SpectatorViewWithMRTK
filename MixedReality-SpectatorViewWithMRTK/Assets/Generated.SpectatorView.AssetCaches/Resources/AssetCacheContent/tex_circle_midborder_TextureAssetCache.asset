@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: tex_circle_midborder_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 359a4a57-094b-0564-eaee-2eb77e6708e1
+      fileIdentifier: 2800000
+      name: tex_circle_midborder
+    Asset: {fileID: 2800000, guid: 359a4a57094b0564eaee2eb77e6708e1, type: 3}

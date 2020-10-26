@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineCurvesOn_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 0ab0f166-6e70-7204-dbd2-5d05500361cf
+      fileIdentifier: 2800000
+      name: TimelineCurvesOn
+    Asset: {fileID: 2800000, guid: 0ab0f1666e707204dbd25d05500361cf, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 88e563d6-9bc6-49c4-dbf8-ffbe396fbcbe
+      fileIdentifier: 2800000
+      name: TimelineCurvesOn
+    Asset: {fileID: 2800000, guid: 88e563d69bc649c4dbf8ffbe396fbcbe, type: 3}

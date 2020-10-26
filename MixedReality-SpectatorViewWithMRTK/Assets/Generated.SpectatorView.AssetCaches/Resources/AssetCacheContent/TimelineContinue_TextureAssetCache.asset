@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineContinue_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 61c21f74-972b-a824-6b3e-a400a9231841
+      fileIdentifier: 2800000
+      name: TimelineContinue
+    Asset: {fileID: 2800000, guid: 61c21f74972ba8246b3ea400a9231841, type: 3}
+  - AssetId:
+      guid:
+        m_storage: f747f9cd-f03f-2ff4-18fe-728a77e8cbef
+      fileIdentifier: 2800000
+      name: TimelineContinue
+    Asset: {fileID: 2800000, guid: f747f9cdf03f2ff418fe728a77e8cbef, type: 3}

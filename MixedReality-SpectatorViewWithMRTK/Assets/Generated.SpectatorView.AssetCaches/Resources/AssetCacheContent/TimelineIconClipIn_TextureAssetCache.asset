@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineIconClipIn_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 4171b549-9472-46b4-f957-9419d5698a7e
+      fileIdentifier: 2800000
+      name: TimelineIconClipIn
+    Asset: {fileID: 2800000, guid: 4171b549947246b4f9579419d5698a7e, type: 3}
+  - AssetId:
+      guid:
+        m_storage: ab1e2f0d-fb0d-f5e4-0bb9-5359b3d8ed3a
+      fileIdentifier: 2800000
+      name: TimelineIconClipIn
+    Asset: {fileID: 2800000, guid: ab1e2f0dfb0df5e40bb95359b3d8ed3a, type: 3}

@@ -1,0 +1,997 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86ff8b58c7348e4eb1d8dc3a07a2f93, type: 3}
+  m_Name: MeshAssetCache
+  m_EditorClassIdentifier: 
+  assets:
+  - Name: A
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300018
+      name: A
+  - Name: Arm
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300006
+      name: Arm
+  - Name: Arm001
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300010
+      name: Arm001
+  - Name: Arm002
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300014
+      name: Arm002
+  - Name: ArmBushings
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300018
+      name: ArmBushings
+  - Name: ArmBushings001
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300020
+      name: ArmBushings001
+  - Name: ArmBushings002
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300022
+      name: ArmBushings002
+  - Name: Arrow
+    Ids:
+    - guid:
+        m_storage: 3d93f721-9bba-0634-a9ee-26865f9d6a3c
+      fileIdentifier: 4300014
+      name: Arrow
+  - Name: B
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300022
+      name: B
+  - Name: BackBody
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300020
+      name: BackBody
+  - Name: Backpack
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300004
+      name: Backpack
+  - Name: BFlat
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300020
+      name: BFlat
+  - Name: Body
+    Ids:
+    - guid:
+        m_storage: 5210fb79-62c4-a0c4-18e7-939db6ef7f51
+      fileIdentifier: 4300004
+      name: Body
+  - Name: BottomLeftBody
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300024
+      name: BottomLeftBody
+  - Name: BottomRightBody
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300010
+      name: BottomRightBody
+  - Name: Button_Oval_Concave_12x24mm
+    Ids:
+    - guid:
+        m_storage: fa3a0f81-e3a6-3bd4-db13-ad99b3858f49
+      fileIdentifier: 4300000
+      name: Button_Oval_Concave_12x24mm
+  - Name: Button_Stroke_48mm
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300006
+      name: Button_Stroke_48mm
+  - Name: Button_Stroke_72mm
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300008
+      name: Button_Stroke_72mm
+  - Name: Button_Stroke_96mm
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300004
+      name: Button_Stroke_96mm
+  - Name: Button_Stroke_Shadow
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300016
+      name: Button_Stroke_Shadow
+  - Name: C
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300000
+      name: C
+  - Name: Cabin
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300002
+      name: Cabin
+  - Name: Chasis
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300000
+      name: Chasis
+  - Name: CheckBoxCheck
+    Ids:
+    - guid:
+        m_storage: 3d93f721-9bba-0634-a9ee-26865f9d6a3c
+      fileIdentifier: 4300010
+      name: CheckBoxCheck
+  - Name: CheckBoxX
+    Ids:
+    - guid:
+        m_storage: 3d93f721-9bba-0634-a9ee-26865f9d6a3c
+      fileIdentifier: 4300008
+      name: CheckBoxX
+  - Name: cheveron
+    Ids:
+    - guid:
+        m_storage: dc6c0266-b7f3-50f4-0b24-b8ddfae317b4
+      fileIdentifier: 4300000
+      name: cheveron
+  - Name: Coffee
+    Ids:
+    - guid:
+        m_storage: e9632632-42b6-cbb4-bbbf-279f0c0e7789
+      fileIdentifier: 4300002
+      name: Coffee
+  - Name: CoffeeCup
+    Ids:
+    - guid:
+        m_storage: e9632632-42b6-cbb4-bbbf-279f0c0e7789
+      fileIdentifier: 4300000
+      name: CoffeeCup
+  - Name: ColorWedge
+    Ids:
+    - guid:
+        m_storage: cc3c25bc-f397-8ab4-6b6e-eab34f67b88d
+      fileIdentifier: 4300000
+      name: ColorWedge
+  - Name: cone
+    Ids:
+    - guid:
+        m_storage: ce4cfb5a-16c8-6b04-8bb7-00360ee47685
+      fileIdentifier: 4300000
+      name: cone
+  - Name: CSharp
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300002
+      name: CSharp
+  - Name: Cube
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-e000-000000000000
+      fileIdentifier: 10202
+      name: Cube
+  - Name: Cursor_Arrows
+    Ids:
+    - guid:
+        m_storage: 15c4f2d8-e761-dd34-a9cd-bae9c6a96bbb
+      fileIdentifier: 4300000
+      name: Cursor_Arrows
+  - Name: Cursor_Focus
+    Ids:
+    - guid:
+        m_storage: 3f1525ce-b672-61b4-29bc-8741e7cee099
+      fileIdentifier: 4300000
+      name: Cursor_Focus
+  - Name: Cursor_IBeam
+    Ids:
+    - guid:
+        m_storage: 968d2afa-c55b-d064-69d2-2c1563df5855
+      fileIdentifier: 4300000
+      name: Cursor_IBeam
+  - Name: Cursor_Press
+    Ids:
+    - guid:
+        m_storage: caf154e8-0e62-ac74-39f2-b35a96114c28
+      fileIdentifier: 4300000
+      name: Cursor_Press
+  - Name: Cursor_Rotate
+    Ids:
+    - guid:
+        m_storage: 1f927d8a-23cc-b644-3b8e-b9990f48070b
+      fileIdentifier: 4300000
+      name: Cursor_Rotate
+  - Name: Cursor_Unfocus
+    Ids:
+    - guid:
+        m_storage: b5725162-6be6-f304-a83b-681a561394eb
+      fileIdentifier: 4300000
+      name: Cursor_Unfocus
+  - Name: Cylinder
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-e000-000000000000
+      fileIdentifier: 10206
+      name: Cylinder
+    - guid:
+        m_storage: 72897283-3a37-39d4-fa5d-234f7c91b4b2
+      fileIdentifier: 4300000
+      name: Cylinder
+  - Name: Cylinder_2
+    Ids:
+    - guid:
+        m_storage: eeef9bdf-2a04-b3f4-da0b-556c9b6ee297
+      fileIdentifier: 4300000
+      name: Cylinder_2
+  - Name: D
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300004
+      name: D
+  - Name: Dial_Outline_72mm
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300010
+      name: Dial_Outline_72mm
+  - Name: E
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300008
+      name: E
+  - Name: Edge
+    Ids:
+    - guid:
+        m_storage: 5210fb79-62c4-a0c4-18e7-939db6ef7f51
+      fileIdentifier: 4300000
+      name: Edge
+    - guid:
+        m_storage: 979fb0c2-1a0d-d104-7824-f2ce933e4f26
+      fileIdentifier: 4300002
+      name: Edge
+  - Name: EFlat
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300006
+      name: EFlat
+  - Name: Engines
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300004
+      name: Engines
+  - Name: F
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300010
+      name: F
+  - Name: Face
+    Ids:
+    - guid:
+        m_storage: 5210fb79-62c4-a0c4-18e7-939db6ef7f51
+      fileIdentifier: 4300002
+      name: Face
+    - guid:
+        m_storage: 979fb0c2-1a0d-d104-7824-f2ce933e4f26
+      fileIdentifier: 4300000
+      name: Face
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300018
+      name: Face
+  - Name: FrontAntenna
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300022
+      name: FrontAntenna
+  - Name: FSharp
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300012
+      name: FSharp
+  - Name: G
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300014
+      name: G
+  - Name: Gas
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300012
+      name: Gas
+  - Name: GasTank
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300008
+      name: GasTank
+  - Name: GasTankGlass
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300052
+      name: GasTankGlass
+  - Name: GoldBase
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300026
+      name: GoldBase
+  - Name: GSharp
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300016
+      name: GSharp
+  - Name: Handle
+    Ids:
+    - guid:
+        m_storage: 05caa518-7fce-4034-7be7-0de0b50397ce
+      fileIdentifier: 4300002
+      name: Handle
+  - Name: HandleActive
+    Ids:
+    - guid:
+        m_storage: 05caa518-7fce-4034-7be7-0de0b50397ce
+      fileIdentifier: 4300004
+      name: HandleActive
+  - Name: HandleInsert
+    Ids:
+    - guid:
+        m_storage: 05caa518-7fce-4034-7be7-0de0b50397ce
+      fileIdentifier: 4300000
+      name: HandleInsert
+  - Name: LeftTwirler
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300006
+      name: LeftTwirler
+  - Name: Leg
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300008
+      name: Leg
+  - Name: Leg001
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300012
+      name: Leg001
+  - Name: Leg002
+    Ids:
+    - guid:
+        m_storage: 1b1d8c45-e1e5-8424-0b13-d1fc6fbb99a6
+      fileIdentifier: 4300016
+      name: Leg002
+  - Name: Legs1
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300054
+      name: Legs1
+  - Name: Legs2
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300056
+      name: Legs2
+  - Name: Legs3
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300058
+      name: Legs3
+  - Name: Legs4
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300060
+      name: Legs4
+  - Name: Light
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300000
+      name: Light
+  - Name: MeshL
+    Ids:
+    - guid:
+        m_storage: 1dd83819-7b9c-97f4-bae6-291d65446d89
+      fileIdentifier: 4300000
+      name: MeshL
+    - guid:
+        m_storage: 6c892af2-80c8-6f24-2bf7-5a7f74a0a017
+      fileIdentifier: 4300000
+      name: MeshL
+  - Name: MeshL.001
+    Ids:
+    - guid:
+        m_storage: 02898cff-d489-5b64-4b7b-0ec89fdbab9e
+      fileIdentifier: 4300000
+      name: MeshL.001
+  - Name: MeshR
+    Ids:
+    - guid:
+        m_storage: c4867650-c786-1294-8ac0-c914c70aff76
+      fileIdentifier: 4300000
+      name: MeshR
+  - Name: node_id30
+    Ids:
+    - guid:
+        m_storage: 28de8cd8-a6b1-f454-885c-b901c876bb45
+      fileIdentifier: 4300000
+      name: node_id30
+    - guid:
+        m_storage: c72691f7-b364-d264-abdb-41ef2f01c706
+      fileIdentifier: 4300000
+      name: node_id30
+    - guid:
+        m_storage: d45e6678-5744-f1d4-29a9-6d32f3f705d4
+      fileIdentifier: 4300000
+      name: node_id30
+  - Name: node_id31
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300000
+      name: node_id31
+  - Name: node_id33
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300002
+      name: node_id33
+  - Name: node_id35
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300004
+      name: node_id35
+  - Name: node_id37
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300006
+      name: node_id37
+  - Name: node_id39
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300008
+      name: node_id39
+  - Name: node_id4
+    Ids:
+    - guid:
+        m_storage: fda2bf14-8915-d3f4-19cd-5690edf148c3
+      fileIdentifier: 4300000
+      name: node_id4
+    - guid:
+        m_storage: fda2bf14-8915-d3f4-19cd-5690edf148c3
+      fileIdentifier: 4300002
+      name: node_id4
+  - Name: node_id41
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300010
+      name: node_id41
+  - Name: node_id43
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300012
+      name: node_id43
+  - Name: node_id45
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300014
+      name: node_id45
+  - Name: node_id47
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300016
+      name: node_id47
+  - Name: node_id49
+    Ids:
+    - guid:
+        m_storage: 902b4366-116e-1184-aaee-744612f65d77
+      fileIdentifier: 4300018
+      name: node_id49
+  - Name: Nose
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300016
+      name: Nose
+  - Name: Null
+    Ids:
+    - guid:
+        m_storage: d7bd8013-cf7a-c614-a8f6-931ec08169d8
+      fileIdentifier: 4300000
+      name: Null
+  - Name: Object003
+    Ids:
+    - guid:
+        m_storage: 1104611d-051d-4e42-a683-91888b61b32e
+      fileIdentifier: 4300002
+      name: Object003
+  - Name: pCone1
+    Ids:
+    - guid:
+        m_storage: 23d0d428-6647-28f4-8bc4-26a2842ced95
+      fileIdentifier: 4300002
+      name: pCone1
+  - Name: pCone6
+    Ids:
+    - guid:
+        m_storage: 16afe3fd-2a3c-4d2c-85ae-eb732ae7f9fb
+      fileIdentifier: 4300000
+      name: pCone6
+  - Name: pCylinder1
+    Ids:
+    - guid:
+        m_storage: 23d0d428-6647-28f4-8bc4-26a2842ced95
+      fileIdentifier: 4300004
+      name: pCylinder1
+  - Name: pCylinderBottom
+    Ids:
+    - guid:
+        m_storage: ceae3a0d-5473-4302-818f-cee506300fef
+      fileIdentifier: 4300012
+      name: pCylinderBottom
+  - Name: pCylinderLeft
+    Ids:
+    - guid:
+        m_storage: ceae3a0d-5473-4302-818f-cee506300fef
+      fileIdentifier: 4300008
+      name: pCylinderLeft
+  - Name: pCylinderRight
+    Ids:
+    - guid:
+        m_storage: ceae3a0d-5473-4302-818f-cee506300fef
+      fileIdentifier: 4300000
+      name: pCylinderRight
+  - Name: pCylinderTop
+    Ids:
+    - guid:
+        m_storage: ceae3a0d-5473-4302-818f-cee506300fef
+      fileIdentifier: 4300004
+      name: pCylinderTop
+  - Name: PianoKey-A
+    Ids:
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300012
+      name: PianoKey-A
+  - Name: PianoKey-B
+    Ids:
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300014
+      name: PianoKey-B
+  - Name: PianoKeyBlack
+    Ids:
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300000
+      name: PianoKeyBlack
+  - Name: PianoKey-C
+    Ids:
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300002
+      name: PianoKey-C
+  - Name: PianoKey-D
+    Ids:
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300004
+      name: PianoKey-D
+  - Name: PianoKey-E
+    Ids:
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300006
+      name: PianoKey-E
+  - Name: PianoKey-F
+    Ids:
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300008
+      name: PianoKey-F
+  - Name: PianoKey-G
+    Ids:
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300010
+      name: PianoKey-G
+  - Name: Plane
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-e000-000000000000
+      fileIdentifier: 10209
+      name: Plane
+  - Name: Platonic
+    Ids:
+    - guid:
+        m_storage: 24d47aad-909b-7114-f99e-a8657d2883d8
+      fileIdentifier: 4300000
+      name: Platonic
+    - guid:
+        m_storage: 40bb9772-594a-9314-0a43-a9a4f5cf9356
+      fileIdentifier: 4300000
+      name: Platonic
+    - guid:
+        m_storage: 78caa723-7047-3f34-19cf-71dc0206fb0b
+      fileIdentifier: 4300000
+      name: Platonic
+    - guid:
+        m_storage: bb88669a-3463-b364-38d9-225a3ecd3a35
+      fileIdentifier: 4300000
+      name: Platonic
+    - guid:
+        m_storage: da9fdd3f-838d-f944-bacc-62655d5f4c0b
+      fileIdentifier: 4300000
+      name: Platonic
+  - Name: Platonic_1
+    Ids:
+    - guid:
+        m_storage: f9b1acc0-404b-53f4-5bff-b480fefa205a
+      fileIdentifier: 4300000
+      name: Platonic_1
+  - Name: polySurface7
+    Ids:
+    - guid:
+        m_storage: 164467aa-ab04-40cb-b011-a7c287072878
+      fileIdentifier: 4300000
+      name: polySurface7
+  - Name: polySurfaceBottom
+    Ids:
+    - guid:
+        m_storage: ceae3a0d-5473-4302-818f-cee506300fef
+      fileIdentifier: 4300014
+      name: polySurfaceBottom
+  - Name: polySurfaceLeft
+    Ids:
+    - guid:
+        m_storage: ceae3a0d-5473-4302-818f-cee506300fef
+      fileIdentifier: 4300010
+      name: polySurfaceLeft
+  - Name: polySurfaceRight
+    Ids:
+    - guid:
+        m_storage: ceae3a0d-5473-4302-818f-cee506300fef
+      fileIdentifier: 4300002
+      name: polySurfaceRight
+  - Name: polySurfaceTop
+    Ids:
+    - guid:
+        m_storage: ceae3a0d-5473-4302-818f-cee506300fef
+      fileIdentifier: 4300006
+      name: polySurfaceTop
+  - Name: pSphere1
+    Ids:
+    - guid:
+        m_storage: 23d0d428-6647-28f4-8bc4-26a2842ced95
+      fileIdentifier: 4300000
+      name: pSphere1
+  - Name: Quad
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-e000-000000000000
+      fileIdentifier: 10210
+      name: Quad
+  - Name: RadialDot
+    Ids:
+    - guid:
+        m_storage: 3d93f721-9bba-0634-a9ee-26865f9d6a3c
+      fileIdentifier: 4300002
+      name: RadialDot
+  - Name: RaialButon
+    Ids:
+    - guid:
+        m_storage: 3d93f721-9bba-0634-a9ee-26865f9d6a3c
+      fileIdentifier: 4300000
+      name: RaialButon
+  - Name: Rectangle
+    Ids:
+    - guid:
+        m_storage: 22a84956-10f3-6594-ebf9-1bc92e5579c7
+      fileIdentifier: 4300000
+      name: Rectangle
+  - Name: rounded_edge
+    Ids:
+    - guid:
+        m_storage: 8881ed45-b1c1-d9c4-5b0f-99ba2730ee66
+      fileIdentifier: 4300000
+      name: rounded_edge
+  - Name: shl_adjustBoxRotateWidget_Sq_16mmx2mm
+    Ids:
+    - guid:
+        m_storage: 57c53da2-552a-8114-ab6d-68e0cd31b1eb
+      fileIdentifier: 4300000
+      name: shl_adjustBoxRotateWidget_Sq_16mmx2mm
+  - Name: shl_adjustBoxScaleWidget_16mmx2mm
+    Ids:
+    - guid:
+        m_storage: 6fcd4c9c-53bf-cb94-b8c3-14ab6865ddd4
+      fileIdentifier: 4300000
+      name: shl_adjustBoxScaleWidget_16mmx2mm
+  - Name: shl_adjustBoxTranslateWidget_Sq_16mmx2mm
+    Ids:
+    - guid:
+        m_storage: 332c8596-f773-d4c4-db31-915a9df86221
+      fileIdentifier: 4300000
+      name: shl_adjustBoxTranslateWidget_Sq_16mmx2mm
+  - Name: shl_csrPointer_geo
+    Ids:
+    - guid:
+        m_storage: 555e9d63-7afc-1bb4-588b-164af67be209
+      fileIdentifier: 4300000
+      name: shl_csrPointer_geo
+  - Name: Slider_Track_Dotted
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300020
+      name: Slider_Track_Dotted
+  - Name: Slider_Track_Oval_Outline
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300024
+      name: Slider_Track_Oval_Outline
+  - Name: Slider_Track_Oval_Shadow
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300028
+      name: Slider_Track_Oval_Shadow
+  - Name: Slider_Track_Simple
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300022
+      name: Slider_Track_Simple
+  - Name: SliderKnob
+    Ids:
+    - guid:
+        m_storage: 3d93f721-9bba-0634-a9ee-26865f9d6a3c
+      fileIdentifier: 4300012
+      name: SliderKnob
+  - Name: Sphere
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-e000-000000000000
+      fileIdentifier: 10207
+      name: Sphere
+  - Name: TeleportPadArrow
+    Ids:
+    - guid:
+        m_storage: 63df8877-75f7-44ff-81b5-498f43f24074
+      fileIdentifier: 4300002
+      name: TeleportPadArrow
+  - Name: TeleportPadBase
+    Ids:
+    - guid:
+        m_storage: 63df8877-75f7-44ff-81b5-498f43f24074
+      fileIdentifier: 4300000
+      name: TeleportPadBase
+  - Name: TeleportPadMid
+    Ids:
+    - guid:
+        m_storage: 63df8877-75f7-44ff-81b5-498f43f24074
+      fileIdentifier: 4300004
+      name: TeleportPadMid
+  - Name: thick_ring
+    Ids:
+    - guid:
+        m_storage: 53f3b565-42ef-ab94-7876-d4aae08d36c2
+      fileIdentifier: 4300000
+      name: thick_ring
+  - Name: ThrustCylinder
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300028
+      name: ThrustCylinder
+  - Name: ToggleButton
+    Ids:
+    - guid:
+        m_storage: 3d93f721-9bba-0634-a9ee-26865f9d6a3c
+      fileIdentifier: 4300006
+      name: ToggleButton
+  - Name: ToggleOutline
+    Ids:
+    - guid:
+        m_storage: 3d93f721-9bba-0634-a9ee-26865f9d6a3c
+      fileIdentifier: 4300004
+      name: ToggleOutline
+  - Name: TopGoldDial
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300030
+      name: TopGoldDial
+  - Name: TopLeftBody
+    Ids:
+    - guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300014
+      name: TopLeftBody
+  - Name: torus
+    Ids:
+    - guid:
+        m_storage: 841b5755-ac02-dbc4-39bd-347f414de999
+      fileIdentifier: 4300000
+      name: torus
+  - Name: Tube
+    Ids:
+    - guid:
+        m_storage: 72897283-3a37-39d4-fa5d-234f7c91b4b2
+      fileIdentifier: 4300002
+      name: Tube
+  - Name: UI_Panel_Frame_232x232
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300002
+      name: UI_Panel_Frame_232x232
+  - Name: UI_Panel_Frame_320x120
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300030
+      name: UI_Panel_Frame_320x120
+  - Name: UI_Panel_Frame_320x232
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300018
+      name: UI_Panel_Frame_320x232
+  - Name: UI_Panel_Frame_464x232
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300000
+      name: UI_Panel_Frame_464x232
+  - Name: UI_Shadow_Box
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300026
+      name: UI_Shadow_Box
+  - Name: UI_Sphere
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300012
+      name: UI_Sphere
+  - Name: UI_Sphere_Stroke
+    Ids:
+    - guid:
+        m_storage: fd9ad331-76d0-3dd4-2885-a4dce3cb38fb
+      fileIdentifier: 4300014
+      name: UI_Sphere_Stroke
+  - Name: UIButtonCircle
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300012
+      name: UIButtonCircle
+  - Name: UIButtonCircleFace
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300014
+      name: UIButtonCircleFace
+  - Name: UIButtonCircleIcon
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300016
+      name: UIButtonCircleIcon
+  - Name: UIButtonRectangle
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300000
+      name: UIButtonRectangle
+  - Name: UIButtonRectangleFace
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300002
+      name: UIButtonRectangleFace
+  - Name: UIButtonRectangleIcon
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300004
+      name: UIButtonRectangleIcon
+  - Name: UIButtonSquare
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300006
+      name: UIButtonSquare
+  - Name: UIButtonSquareFace
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300008
+      name: UIButtonSquareFace
+  - Name: UIButtonSquareIcon
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300010
+      name: UIButtonSquareIcon
+  - Name: UIHolobarManipulationBG
+    Ids:
+    - guid:
+        m_storage: b566bbce-04d6-6f44-2842-1e81a3af0299
+      fileIdentifier: 4300018
+      name: UIHolobarManipulationBG
+  - Name: unnamed
+    Ids:
+    - guid:
+        m_storage: a6473ac7-ac98-2fb4-88db-53a454bf0a3c
+      fileIdentifier: 4300000
+      name: unnamed
+  - Name: Velvet
+    Ids:
+    - guid:
+        m_storage: a37785fa-4a41-2924-6a58-f79132a1b6c6
+      fileIdentifier: 4300024
+      name: Velvet
+    - guid:
+        m_storage: bb0ccc5c-35ed-8514-98eb-51db45d1a738
+      fileIdentifier: 4300016
+      name: Velvet

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineLoop_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 360dded8-761e-81d4-d98c-10f469d55492
+      fileIdentifier: 2800000
+      name: TimelineLoop
+    Asset: {fileID: 2800000, guid: 360dded8761e81d4d98c10f469d55492, type: 3}
+  - AssetId:
+      guid:
+        m_storage: c7df1e79-7b21-c774-f9b8-59d17f674737
+      fileIdentifier: 2800000
+      name: TimelineLoop
+    Asset: {fileID: 2800000, guid: c7df1e797b21c774f9b859d17f674737, type: 3}

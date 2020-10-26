@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: MeshL_MeshAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 1dd83819-7b9c-97f4-bae6-291d65446d89
+      fileIdentifier: 4300000
+      name: MeshL
+    Asset: {fileID: 4300000, guid: 1dd838197b9c97f4bae6291d65446d89, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 6c892af2-80c8-6f24-2bf7-5a7f74a0a017
+      fileIdentifier: 4300000
+      name: MeshL
+    Asset: {fileID: 4300000, guid: 6c892af280c86f242bf75a7f74a0a017, type: 3}

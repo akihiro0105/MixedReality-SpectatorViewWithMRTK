@@ -1,0 +1,2203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c3ebe20a2865194789ed6f19de37cb9, type: 3}
+  m_Name: TextureAssetCache
+  m_EditorClassIdentifier: 
+  assets:
+  - Name: 10
+    Ids:
+    - guid:
+        m_storage: 573b894e-d1c2-fc44-ea25-41ee5b8a57ad
+      fileIdentifier: 2800000
+      name: 10
+  - Name: 5
+    Ids:
+    - guid:
+        m_storage: 3a203b93-1b1b-1ef4-f8fe-dcf179dac304
+      fileIdentifier: 2800000
+      name: 5
+    - guid:
+        m_storage: 7beab324-a3ae-3474-18d5-bd86646a4c13
+      fileIdentifier: 2800000
+      name: 5
+    - guid:
+        m_storage: 7c3aaa73-ed84-f5b4-fb1c-16afcb7bf70f
+      fileIdentifier: 2800000
+      name: 5
+    - guid:
+        m_storage: abc0278c-3696-5d64-3b5d-21021630ee68
+      fileIdentifier: 2800000
+      name: 5
+  - Name: 6
+    Ids:
+    - guid:
+        m_storage: 08640538-9438-9784-7b0d-7d46ae188811
+      fileIdentifier: 2800000
+      name: 6
+    - guid:
+        m_storage: 3a3b17c9-ed7c-80c4-59e2-67bea86883a2
+      fileIdentifier: 2800000
+      name: 6
+  - Name: 7
+    Ids:
+    - guid:
+        m_storage: 061e0aef-150f-0d94-d86e-3767ed08be90
+      fileIdentifier: 2800000
+      name: 7
+    - guid:
+        m_storage: 63df0e3a-2395-a334-baf3-86aeb665335d
+      fileIdentifier: 2800000
+      name: 7
+    - guid:
+        m_storage: e502d6f9-910b-6294-4ac5-02b8671c9695
+      fileIdentifier: 2800000
+      name: 7
+  - Name: 8
+    Ids:
+    - guid:
+        m_storage: 1555559c-1bef-3164-4a62-e9c2aa236c2b
+      fileIdentifier: 2800000
+      name: 8
+  - Name: 9
+    Ids:
+    - guid:
+        m_storage: 9aca6013-df88-3744-8bc1-4e4b117cb609
+      fileIdentifier: 2800000
+      name: 9
+  - Name: ARVR@4x
+    Ids:
+    - guid:
+        m_storage: e7df757a-ba3e-54a1-1a83-2b1b8cbe5aaa
+      fileIdentifier: 2800000
+      name: ARVR@4x
+  - Name: Avocado_baseColor
+    Ids:
+    - guid:
+        m_storage: 5aae989d-dfef-7804-28a5-cd02032aa367
+      fileIdentifier: 2800000
+      name: Avocado_baseColor
+  - Name: BlueButton
+    Ids:
+    - guid:
+        m_storage: 229c3211-a796-6124-ca2b-aa412fae0b0f
+      fileIdentifier: 2800000
+      name: BlueButton
+  - Name: Bricks_normal
+    Ids:
+    - guid:
+        m_storage: ac4decb2-5aa5-9fd4-7ace-cae2afb00d9e
+      fileIdentifier: 2800000
+      name: Bricks_normal
+  - Name: btn_AlignBaseLine
+    Ids:
+    - guid:
+        m_storage: 8bc445bb-7965-4bf4-96c9-2d0407840a92
+      fileIdentifier: 2800000
+      name: btn_AlignBaseLine
+  - Name: btn_AlignBaseLine_Light
+    Ids:
+    - guid:
+        m_storage: 18775b51-e3bd-4229-9fd3-0bd036ea982f
+      fileIdentifier: 2800000
+      name: btn_AlignBaseLine_Light
+  - Name: btn_AlignBottom
+    Ids:
+    - guid:
+        m_storage: ca51b190-2409-4d1b-87f3-e07edb0a75fb
+      fileIdentifier: 2800000
+      name: btn_AlignBottom
+  - Name: btn_AlignBottom_Light
+    Ids:
+    - guid:
+        m_storage: 585b70cb-75dd-43ef-bfea-d809c30a1731
+      fileIdentifier: 2800000
+      name: btn_AlignBottom_Light
+  - Name: btn_AlignCapLine
+    Ids:
+    - guid:
+        m_storage: 0d9a3601-2a22-4080-966c-7b55896aa0f9
+      fileIdentifier: 2800000
+      name: btn_AlignCapLine
+  - Name: btn_AlignCapLine_Light
+    Ids:
+    - guid:
+        m_storage: 49679f30-2ac6-4086-97f6-b9314a38985c
+      fileIdentifier: 2800000
+      name: btn_AlignCapLine_Light
+  - Name: btn_AlignCenter
+    Ids:
+    - guid:
+        m_storage: 81ed8c76-d2bc-4a4c-95d0-92c98af4e58f
+      fileIdentifier: 2800000
+      name: btn_AlignCenter
+  - Name: btn_AlignCenter_Light
+    Ids:
+    - guid:
+        m_storage: 6ace62d3-0f49-4c94-8b71-d5594afce11d
+      fileIdentifier: 2800000
+      name: btn_AlignCenter_Light
+  - Name: btn_AlignCenterGeo
+    Ids:
+    - guid:
+        m_storage: c76700ea-0062-413d-9f69-409b4e9e151b
+      fileIdentifier: 2800000
+      name: btn_AlignCenterGeo
+  - Name: btn_AlignCenterGeo_Light
+    Ids:
+    - guid:
+        m_storage: 35ff0937-8765-40d3-bd4b-6a941df62a92
+      fileIdentifier: 2800000
+      name: btn_AlignCenterGeo_Light
+  - Name: btn_AlignFlush
+    Ids:
+    - guid:
+        m_storage: 691475c5-7a82-4010-be0c-6f474caeb7e1
+      fileIdentifier: 2800000
+      name: btn_AlignFlush
+  - Name: btn_AlignFlush_Light
+    Ids:
+    - guid:
+        m_storage: 64b9fad6-0943-4c48-9c32-b1cdf2004a1c
+      fileIdentifier: 2800000
+      name: btn_AlignFlush_Light
+  - Name: btn_AlignJustified
+    Ids:
+    - guid:
+        m_storage: 92027f7f-8cfc-4fea-a477-da0dc38d3d46
+      fileIdentifier: 2800000
+      name: btn_AlignJustified
+  - Name: btn_AlignJustified_Light
+    Ids:
+    - guid:
+        m_storage: fa6bd40a-2163-46b7-83a4-cce741d277a5
+      fileIdentifier: 2800000
+      name: btn_AlignJustified_Light
+  - Name: btn_AlignLeft
+    Ids:
+    - guid:
+        m_storage: 9288066c-3347-4b94-b6ee-5465f4df1cc0
+      fileIdentifier: 2800000
+      name: btn_AlignLeft
+  - Name: btn_AlignLeft_Light
+    Ids:
+    - guid:
+        m_storage: 12736c98-af17-4f91-827a-26b66d2b01b9
+      fileIdentifier: 2800000
+      name: btn_AlignLeft_Light
+  - Name: btn_AlignMiddle
+    Ids:
+    - guid:
+        m_storage: 41b96614-b2e6-494b-a995-ddcd252d11ae
+      fileIdentifier: 2800000
+      name: btn_AlignMiddle
+  - Name: btn_AlignMiddle_Light
+    Ids:
+    - guid:
+        m_storage: 066619c9-c9c8-4f89-acb1-b48c11a7efe2
+      fileIdentifier: 2800000
+      name: btn_AlignMiddle_Light
+  - Name: btn_AlignMidLine
+    Ids:
+    - guid:
+        m_storage: c2f7f6a8-8b4c-4f20-a53d-eb72f3d9144c
+      fileIdentifier: 2800000
+      name: btn_AlignMidLine
+  - Name: btn_AlignMidline_Light
+    Ids:
+    - guid:
+        m_storage: bb42b2d9-67d6-4279-83c9-01a4ffc8ecd9
+      fileIdentifier: 2800000
+      name: btn_AlignMidline_Light
+  - Name: btn_AlignRight
+    Ids:
+    - guid:
+        m_storage: 342a0f8a-ca7f-4f06-9133-8912faec0494
+      fileIdentifier: 2800000
+      name: btn_AlignRight
+  - Name: btn_AlignRight_Light
+    Ids:
+    - guid:
+        m_storage: e05ace3b-d157-40cd-a0ba-d60d89092a5b
+      fileIdentifier: 2800000
+      name: btn_AlignRight_Light
+  - Name: btn_AlignTop
+    Ids:
+    - guid:
+        m_storage: 48d034c4-99ee-4697-af9d-d6e327110249
+      fileIdentifier: 2800000
+      name: btn_AlignTop
+  - Name: btn_AlignTop_Light
+    Ids:
+    - guid:
+        m_storage: ed041e68-4397-49a6-9d0e-fa0e3d896c2e
+      fileIdentifier: 2800000
+      name: btn_AlignTop_Light
+  - Name: Checker_albedo
+    Ids:
+    - guid:
+        m_storage: e2cd08a4-d181-dcc4-ea7b-eb0992656c7e
+      fileIdentifier: 2800000
+      name: Checker_albedo
+  - Name: Circle
+    Ids:
+    - guid:
+        m_storage: 7e29bd78-484d-e854-79d1-437e5727d5a9
+      fileIdentifier: 2800000
+      name: Circle
+  - Name: CircleIcon
+    Ids:
+    - guid:
+        m_storage: 4dc2af51-2aa3-3704-19cc-d40d0abd485b
+      fileIdentifier: 2800000
+      name: CircleIcon
+  - Name: CoffeeFoam
+    Ids:
+    - guid:
+        m_storage: 659a33cb-4a71-3834-3ae5-19b13efd2375
+      fileIdentifier: 2800000
+      name: CoffeeFoam
+  - Name: color_palette
+    Ids:
+    - guid:
+        m_storage: 565e74aa-212e-e274-b990-133c5808e9de
+      fileIdentifier: 2800000
+      name: color_palette
+  - Name: Cursor_MousePointer_tex
+    Ids:
+    - guid:
+        m_storage: 291b0378-706e-cbe4-5b8d-ad41f9b226c2
+      fileIdentifier: 2800000
+      name: Cursor_MousePointer_tex
+  - Name: Cursor_Move_Shadow
+    Ids:
+    - guid:
+        m_storage: 7d4ad91e-1389-b894-684e-74a0b97d25e7
+      fileIdentifier: 2800000
+      name: Cursor_Move_Shadow
+  - Name: Cursor_Ring_Shadow
+    Ids:
+    - guid:
+        m_storage: 55942535-2710-0df4-3a61-5c542bf0aaa7
+      fileIdentifier: 2800000
+      name: Cursor_Ring_Shadow
+  - Name: Cursor_Rotate_Shadow
+    Ids:
+    - guid:
+        m_storage: 427e0e64-7801-a0c4-9b51-b9cc0b812334
+      fileIdentifier: 2800000
+      name: Cursor_Rotate_Shadow
+  - Name: d_ARVR@4x
+    Ids:
+    - guid:
+        m_storage: 8236c695-e724-14e7-889f-b3f4d8226fde
+      fileIdentifier: 2800000
+      name: d_ARVR@4x
+  - Name: d_TimelineDigIn
+    Ids:
+    - guid:
+        m_storage: 22c3c381-bd3c-d4a4-0a85-41103023e1ef
+      fileIdentifier: 2800000
+      name: d_TimelineDigIn
+  - Name: d_TimelineEditModeMixOFF
+    Ids:
+    - guid:
+        m_storage: 39d9575e-d046-5354-cb02-b69ea18526de
+      fileIdentifier: 2800000
+      name: d_TimelineEditModeMixOFF
+  - Name: d_TimelineEditModeMixON
+    Ids:
+    - guid:
+        m_storage: 7c681ffb-5a43-6684-fa3e-98a9b66775c0
+      fileIdentifier: 2800000
+      name: d_TimelineEditModeMixON
+  - Name: d_TimelineEditModeReplaceOFF
+    Ids:
+    - guid:
+        m_storage: 912fd71c-bf4c-be14-0b4f-240bedbc1f3e
+      fileIdentifier: 2800000
+      name: d_TimelineEditModeReplaceOFF
+  - Name: d_TimelineEditModeReplaceON
+    Ids:
+    - guid:
+        m_storage: 7b4b3ced-f598-c954-cb2f-38d6e2e34c0d
+      fileIdentifier: 2800000
+      name: d_TimelineEditModeReplaceON
+  - Name: d_TimelineEditModeRippleOFF
+    Ids:
+    - guid:
+        m_storage: 411e6f19-c19f-a054-6af8-3aeb59c2ed4b
+      fileIdentifier: 2800000
+      name: d_TimelineEditModeRippleOFF
+  - Name: d_TimelineEditModeRippleON
+    Ids:
+    - guid:
+        m_storage: 67a774c4-384a-a6c4-8812-8e2851b18ced
+      fileIdentifier: 2800000
+      name: d_TimelineEditModeRippleON
+  - Name: d_TimelineHeaderMarkerIcon
+    Ids:
+    - guid:
+        m_storage: 4f8d98ef-7dbb-e3d4-69e1-4c04722cbeed
+      fileIdentifier: 2800000
+      name: d_TimelineHeaderMarkerIcon
+  - Name: d_TimelineMarkerAreaButtonDisabled
+    Ids:
+    - guid:
+        m_storage: b3644a97-1cca-0bd4-eb35-7cb9aca4dde1
+      fileIdentifier: 2800000
+      name: d_TimelineMarkerAreaButtonDisabled
+  - Name: d_TimelineMarkerAreaButtonEnabled
+    Ids:
+    - guid:
+        m_storage: 8cde7965-5a95-7734-b8c2-0c92c6d3132d
+      fileIdentifier: 2800000
+      name: d_TimelineMarkerAreaButtonEnabled
+  - Name: d_TimelineSelector
+    Ids:
+    - guid:
+        m_storage: 06bf6150-6563-3994-1aa9-8e175a995445
+      fileIdentifier: 2800000
+      name: d_TimelineSelector
+  - Name: d_TimelineSignal
+    Ids:
+    - guid:
+        m_storage: ad2e3e92-b008-39c4-e991-ca602ef19822
+      fileIdentifier: 2800000
+      name: d_TimelineSignal
+  - Name: DefaultIconsSpriteSheet
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 2800000
+      name: DefaultIconsSpriteSheet
+  - Name: DefaultPointerDottedLine
+    Ids:
+    - guid:
+        m_storage: 8e35f923-4c1f-48f4-4b66-0f8bae903a0f
+      fileIdentifier: 2800000
+      name: DefaultPointerDottedLine
+  - Name: Dragger
+    Ids:
+    - guid:
+        m_storage: 9c59ac3f-173f-e794-1ac8-fd6375684e08
+      fileIdentifier: 2800000
+      name: Dragger
+  - Name: EmojiOne
+    Ids:
+    - guid:
+        m_storage: dffef663-76be-4fa4-80fb-02b19edbe903
+      fileIdentifier: 2800000
+      name: EmojiOne
+  - Name: Fabric_normal
+    Ids:
+    - guid:
+        m_storage: fe6c9717-b342-6224-e800-bc2ccec9169e
+      fileIdentifier: 2800000
+      name: Fabric_normal
+  - Name: Generic_controller_black_scaled
+    Ids:
+    - guid:
+        m_storage: 01b6830a-93a3-6904-ab13-9325358f2d35
+      fileIdentifier: 2800000
+      name: Generic_controller_black_scaled
+  - Name: Generic_controller_white_scaled
+    Ids:
+    - guid:
+        m_storage: d7776e47-f36f-9954-58a9-2021b99f44d5
+      fileIdentifier: 2800000
+      name: Generic_controller_white_scaled
+  - Name: GrabArea
+    Ids:
+    - guid:
+        m_storage: ed822fed-d9a3-ed64-0a9a-7aaedabcaef4
+      fileIdentifier: 2800000
+      name: GrabArea
+  - Name: GrabAreaSingle
+    Ids:
+    - guid:
+        m_storage: f1fd3fdd-34a6-5494-7a68-d8526ab133e5
+      fileIdentifier: 2800000
+      name: GrabAreaSingle
+  - Name: Gradient
+    Ids:
+    - guid:
+        m_storage: f4b99f53-cd2a-de94-28bd-5b5ded607c4b
+      fileIdentifier: 2800000
+      name: Gradient
+  - Name: HandMenu_Icon_3x1
+    Ids:
+    - guid:
+        m_storage: 51fdf423-af63-ad64-db2e-978be70ebb5a
+      fileIdentifier: 2800000
+      name: HandMenu_Icon_3x1
+  - Name: HandMenu_Icon_3x1_Circles
+    Ids:
+    - guid:
+        m_storage: e6bc0a5f-4206-5e44-e800-663201b609ab
+      fileIdentifier: 2800000
+      name: HandMenu_Icon_3x1_Circles
+  - Name: HandMenu_Icon_3x2
+    Ids:
+    - guid:
+        m_storage: 7a01aec6-22d5-c984-592c-c4fcc5ec04e6
+      fileIdentifier: 2800000
+      name: HandMenu_Icon_3x2
+  - Name: HandMenu_Icon_3x3
+    Ids:
+    - guid:
+        m_storage: 2f784f61-04ad-25e4-c8a2-0880441875c9
+      fileIdentifier: 2800000
+      name: HandMenu_Icon_3x3
+  - Name: HandMenu_Icon_3x4
+    Ids:
+    - guid:
+        m_storage: 79d312da-0022-bc14-e98d-fb839089c150
+      fileIdentifier: 2800000
+      name: HandMenu_Icon_3x4
+  - Name: HandMenu_Icon_3x6
+    Ids:
+    - guid:
+        m_storage: fbba9b51-fdcb-a4f4-5bd5-774112f3f555
+      fileIdentifier: 2800000
+      name: HandMenu_Icon_3x6
+  - Name: HandMenu_Icon_4x1
+    Ids:
+    - guid:
+        m_storage: eefa4193-db05-6fe4-7849-c4a46617cebd
+      fileIdentifier: 2800000
+      name: HandMenu_Icon_4x1
+  - Name: HumanHeart_Albdeo
+    Ids:
+    - guid:
+        m_storage: bad97593-e042-d854-5aad-b269c3f4bc01
+      fileIdentifier: 2800000
+      name: HumanHeart_Albdeo
+  - Name: IconAdd
+    Ids:
+    - guid:
+        m_storage: d6a8d6d7-64af-7674-0ad0-6383ee810941
+      fileIdentifier: 2800000
+      name: IconAdd
+  - Name: IconAdjust
+    Ids:
+    - guid:
+        m_storage: bb1b4a92-41fb-a204-2a81-428e917afd5d
+      fileIdentifier: 2800000
+      name: IconAdjust
+  - Name: IconCamera
+    Ids:
+    - guid:
+        m_storage: 114589bc-5b89-1c34-88cb-b8607b6b9171
+      fileIdentifier: 2800000
+      name: IconCamera
+  - Name: IconCheckOff
+    Ids:
+    - guid:
+        m_storage: b98c96ca-bf44-9be4-5b77-bc78de64a2bb
+      fileIdentifier: 2800000
+      name: IconCheckOff
+  - Name: IconCheckOn
+    Ids:
+    - guid:
+        m_storage: 790ba5fe-675d-85a4-49cb-357262201899
+      fileIdentifier: 2800000
+      name: IconCheckOn
+  - Name: IconClose
+    Ids:
+    - guid:
+        m_storage: 8d0274d8-bc6a-1784-4a08-b493920d9491
+      fileIdentifier: 2800000
+      name: IconClose
+  - Name: IconDone
+    Ids:
+    - guid:
+        m_storage: b5066c51-4f7f-02f4-292c-f842f3c8b75f
+      fileIdentifier: 2800000
+      name: IconDone
+  - Name: IconDot
+    Ids:
+    - guid:
+        m_storage: 2e264b20-35e1-78e4-dac9-e40cfcf38662
+      fileIdentifier: 2800000
+      name: IconDot
+  - Name: IconFollowMe
+    Ids:
+    - guid:
+        m_storage: bd30f985-96e6-9f74-69fd-a20a47760dd1
+      fileIdentifier: 2800000
+      name: IconFollowMe
+  - Name: IconHandActiveLeft
+    Ids:
+    - guid:
+        m_storage: a1bfd276-cecd-2504-aa94-f334850481d9
+      fileIdentifier: 2800000
+      name: IconHandActiveLeft
+  - Name: IconHandActiveRight
+    Ids:
+    - guid:
+        m_storage: c1ec574b-fa2b-e924-783d-e54868caee68
+      fileIdentifier: 2800000
+      name: IconHandActiveRight
+  - Name: IconHandIdleLeft
+    Ids:
+    - guid:
+        m_storage: 4162248f-738e-54a4-38ae-5c54e18f0784
+      fileIdentifier: 2800000
+      name: IconHandIdleLeft
+  - Name: IconHandIdleRight
+    Ids:
+    - guid:
+        m_storage: 84bd1d5b-692e-ba54-5b14-5e3ef5333c38
+      fileIdentifier: 2800000
+      name: IconHandIdleRight
+  - Name: IconHandJoint
+    Ids:
+    - guid:
+        m_storage: 0771cd1b-5e41-31e4-5afe-250cd1713737
+      fileIdentifier: 2800000
+      name: IconHandJoint
+  - Name: IconHandMesh
+    Ids:
+    - guid:
+        m_storage: 4494cfaf-424c-dde4-9895-b91e2b559258
+      fileIdentifier: 2800000
+      name: IconHandMesh
+  - Name: IconHandRay
+    Ids:
+    - guid:
+        m_storage: b7ebc1af-93ce-aba4-8aed-1e572edc6a58
+      fileIdentifier: 2800000
+      name: IconHandRay
+  - Name: IconHandUntrackedLeft
+    Ids:
+    - guid:
+        m_storage: f87b5f94-4e86-30e4-0874-8d05d33bed27
+      fileIdentifier: 2800000
+      name: IconHandUntrackedLeft
+  - Name: IconHandUntrackedRight
+    Ids:
+    - guid:
+        m_storage: e516b67f-b96d-9af4-b833-78670e1d4058
+      fileIdentifier: 2800000
+      name: IconHandUntrackedRight
+  - Name: IconHide
+    Ids:
+    - guid:
+        m_storage: d74cdc58-c5d1-72a4-69ea-5ca987eb17f6
+      fileIdentifier: 2800000
+      name: IconHide
+  - Name: IconHome
+    Ids:
+    - guid:
+        m_storage: 85835ae0-b6c3-c1c4-18a5-7400fcbb788c
+      fileIdentifier: 2800000
+      name: IconHome
+  - Name: IconMessage
+    Ids:
+    - guid:
+        m_storage: 937867e9-be79-12d4-a903-cd401ee0a959
+      fileIdentifier: 2800000
+      name: IconMessage
+  - Name: IconMicrophone
+    Ids:
+    - guid:
+        m_storage: 49a59150-fd8a-7c14-3882-8c262032e023
+      fileIdentifier: 2800000
+      name: IconMicrophone
+  - Name: IconMigrationFail
+    Ids:
+    - guid:
+        m_storage: 5f1c0a61-0cc7-c184-1a1e-9b43045c3f05
+      fileIdentifier: 2800000
+      name: IconMigrationFail
+  - Name: IconMigrationPass
+    Ids:
+    - guid:
+        m_storage: f3b1d57b-0d86-d294-19b5-737244fed8a9
+      fileIdentifier: 2800000
+      name: IconMigrationPass
+  - Name: IconMigrationTabDark
+    Ids:
+    - guid:
+        m_storage: b2681195-a786-ce54-e97b-2126f1164e1f
+      fileIdentifier: 2800000
+      name: IconMigrationTabDark
+  - Name: IconMigrationTabLight
+    Ids:
+    - guid:
+        m_storage: 2064c6a3-54f9-3c74-397e-7795dfbfc111
+      fileIdentifier: 2800000
+      name: IconMigrationTabLight
+  - Name: IconMRTKLogo
+    Ids:
+    - guid:
+        m_storage: 74ebfa89-af37-aba4-3b08-982d7f97eb7d
+      fileIdentifier: 2800000
+      name: IconMRTKLogo
+  - Name: IconPin
+    Ids:
+    - guid:
+        m_storage: 5ced9c7e-98be-2e94-1a88-b5d0a16b2a3b
+      fileIdentifier: 2800000
+      name: IconPin
+  - Name: IconProfiler
+    Ids:
+    - guid:
+        m_storage: 7de78062-2dda-b5e4-9b73-d5d7a806faf9
+      fileIdentifier: 2800000
+      name: IconProfiler
+  - Name: IconRadioOff
+    Ids:
+    - guid:
+        m_storage: 286f121b-c0fe-c594-8b18-64fa3d0c022c
+      fileIdentifier: 2800000
+      name: IconRadioOff
+  - Name: IconRadioOn
+    Ids:
+    - guid:
+        m_storage: 72cd4ba1-f531-b824-f8b5-9e74fa27c343
+      fileIdentifier: 2800000
+      name: IconRadioOn
+  - Name: IconRefresh
+    Ids:
+    - guid:
+        m_storage: 559e1da0-e656-11c4-f93e-c931e1e6a8a2
+      fileIdentifier: 2800000
+      name: IconRefresh
+  - Name: IconSearch
+    Ids:
+    - guid:
+        m_storage: ed2f699f-32ec-17f4-cad3-423d2c449119
+      fileIdentifier: 2800000
+      name: IconSearch
+  - Name: IconSettings
+    Ids:
+    - guid:
+        m_storage: ac8550a4-7441-9054-d962-1216812fd098
+      fileIdentifier: 2800000
+      name: IconSettings
+  - Name: IconShow
+    Ids:
+    - guid:
+        m_storage: 0bee624b-4074-e544-5929-e56287795085
+      fileIdentifier: 2800000
+      name: IconShow
+  - Name: IconSpatialMapping
+    Ids:
+    - guid:
+        m_storage: cb5a9c3b-dc20-17d4-f9e8-05e3a7e72b1d
+      fileIdentifier: 2800000
+      name: IconSpatialMapping
+  - Name: IconStar
+    Ids:
+    - guid:
+        m_storage: ea677436-af90-0484-8a7f-20878e38257c
+      fileIdentifier: 2800000
+      name: IconStar
+  - Name: IconSwitchOff
+    Ids:
+    - guid:
+        m_storage: b28a140a-fa50-1ef4-3a39-02ae117eb6a7
+      fileIdentifier: 2800000
+      name: IconSwitchOff
+  - Name: IconSwitchOn
+    Ids:
+    - guid:
+        m_storage: ae615b74-9c46-c984-9951-a8fa9e342ef3
+      fileIdentifier: 2800000
+      name: IconSwitchOn
+  - Name: IridescentSpectrum
+    Ids:
+    - guid:
+        m_storage: 86609bdc-7f4c-43d4-2991-f96373fb8081
+      fileIdentifier: 2800000
+      name: IridescentSpectrum
+  - Name: IridescentSpectrumRainbow
+    Ids:
+    - guid:
+        m_storage: 98e3b4b6-0df3-4834-4985-cb363d5778fc
+      fileIdentifier: 2800000
+      name: IridescentSpectrumRainbow
+  - Name: KeyboardKeyGlyphs_Backspace
+    Ids:
+    - guid:
+        m_storage: 5eb0b332-d494-ca84-d9c3-8cf77ba0e12d
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_Backspace
+  - Name: KeyboardKeyGlyphs_Close
+    Ids:
+    - guid:
+        m_storage: 7029cbbb-ce5f-0ac4-dbc4-e93267bfddf4
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_Close
+  - Name: KeyboardKeyGlyphs_Dictation
+    Ids:
+    - guid:
+        m_storage: b575d7b7-d874-61b4-ea99-65b50e367249
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_Dictation
+  - Name: KeyboardKeyGlyphs_Down
+    Ids:
+    - guid:
+        m_storage: 161fc587-2226-6014-49a8-143014ece469
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_Down
+  - Name: KeyboardKeyGlyphs_Left
+    Ids:
+    - guid:
+        m_storage: ec8b4073-237c-9724-ba84-22f71fda3694
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_Left
+  - Name: KeyboardKeyGlyphs_Right
+    Ids:
+    - guid:
+        m_storage: 11e4524f-21fc-6434-abbb-ba83d70d0040
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_Right
+  - Name: KeyboardKeyGlyphs_Shift_Symbols
+    Ids:
+    - guid:
+        m_storage: 1dde69cc-d958-3fa4-f8df-ab2b590119ee
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_Shift_Symbols
+  - Name: KeyboardKeyGlyphs_UnShift_Symbols
+    Ids:
+    - guid:
+        m_storage: f6f44dc3-b387-f9d4-8bca-aee0038969c4
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_UnShift_Symbols
+  - Name: KeyboardKeyGlyphs_Up
+    Ids:
+    - guid:
+        m_storage: 73830216-a21a-45e4-9959-8b2624ef723e
+      fileIdentifier: 2800000
+      name: KeyboardKeyGlyphs_Up
+  - Name: Lander_albedo
+    Ids:
+    - guid:
+        m_storage: 11056bb5-2f91-cdc4-3ba4-fba9accfb226
+      fileIdentifier: 2800000
+      name: Lander_albedo
+  - Name: Lander_channel
+    Ids:
+    - guid:
+        m_storage: bf08fbb8-3f27-bc24-0811-0dba26a36a7f
+      fileIdentifier: 2800000
+      name: Lander_channel
+  - Name: Lander_normal
+    Ids:
+    - guid:
+        m_storage: 114a8841-9a74-a534-1976-24fb7bfe17da
+      fileIdentifier: 2800000
+      name: Lander_normal
+  - Name: mic_icon
+    Ids:
+    - guid:
+        m_storage: 466b28a7-abdd-4f2f-b56a-1b9f929d7aaa
+      fileIdentifier: 2800000
+      name: mic_icon
+  - Name: mixed_reality_icon
+    Ids:
+    - guid:
+        m_storage: 6eccdbd0-228d-47ab-9ac6-ca58258f9112
+      fileIdentifier: 2800000
+      name: mixed_reality_icon
+  - Name: MotionController_left_black
+    Ids:
+    - guid:
+        m_storage: a7d0f692-b982-a754-b8ae-2353d5e88d64
+      fileIdentifier: 2800000
+      name: MotionController_left_black
+  - Name: MotionController_left_black_scaled
+    Ids:
+    - guid:
+        m_storage: 03b731c9-9d54-dfb4-abde-4d7d1b1b9199
+      fileIdentifier: 2800000
+      name: MotionController_left_black_scaled
+  - Name: MotionController_left_white
+    Ids:
+    - guid:
+        m_storage: 78864818-2fdb-a814-396e-5258870a63f0
+      fileIdentifier: 2800000
+      name: MotionController_left_white
+  - Name: MotionController_left_white_scaled
+    Ids:
+    - guid:
+        m_storage: 2a95b12b-f068-e064-9889-84ff0723e935
+      fileIdentifier: 2800000
+      name: MotionController_left_white_scaled
+  - Name: MotionController_right_black
+    Ids:
+    - guid:
+        m_storage: 94c407cc-a908-01e4-7aea-d1757ce0ae05
+      fileIdentifier: 2800000
+      name: MotionController_right_black
+  - Name: MotionController_right_black_scaled
+    Ids:
+    - guid:
+        m_storage: 8e8fc4c5-d417-b754-280c-d920d79a5e7f
+      fileIdentifier: 2800000
+      name: MotionController_right_black_scaled
+  - Name: MotionController_right_white
+    Ids:
+    - guid:
+        m_storage: 6588fe84-4902-0f74-488b-8b667ce2f435
+      fileIdentifier: 2800000
+      name: MotionController_right_white
+  - Name: MotionController_right_white_scaled
+    Ids:
+    - guid:
+        m_storage: 417cf16d-d689-5c44-f821-49efa15170d5
+      fileIdentifier: 2800000
+      name: MotionController_right_white_scaled
+  - Name: MouseCursor
+    Ids:
+    - guid:
+        m_storage: 3038942a-8632-b664-795d-a551e3a65b25
+      fileIdentifier: 2800000
+      name: MouseCursor
+  - Name: MRTK_Logo_Black
+    Ids:
+    - guid:
+        m_storage: c2c00ef2-1cc4-4bcf-a096-95879e0ebecd
+      fileIdentifier: 2800000
+      name: MRTK_Logo_Black
+  - Name: MRTK_Logo_White
+    Ids:
+    - guid:
+        m_storage: 84643a20-fa6b-4fa7-969e-f84ad2e40992
+      fileIdentifier: 2800000
+      name: MRTK_Logo_White
+  - Name: MRTK_TimelineJumpBack
+    Ids:
+    - guid:
+        m_storage: a5d8e80a-5474-1dc4-59e4-f116e1d477f2
+      fileIdentifier: 2800000
+      name: MRTK_TimelineJumpBack
+  - Name: MRTK_TimelineJumpFwd
+    Ids:
+    - guid:
+        m_storage: 3afb597c-bd6e-c444-39ea-7b8ce92d957a
+      fileIdentifier: 2800000
+      name: MRTK_TimelineJumpFwd
+  - Name: MRTK_TimelinePause
+    Ids:
+    - guid:
+        m_storage: 1bfd4df7-e86b-1864-0b9f-a1af5713bfb9
+      fileIdentifier: 2800000
+      name: MRTK_TimelinePause
+  - Name: MRTK_TimelinePlay
+    Ids:
+    - guid:
+        m_storage: 474f3f21-b48d-aea4-f861-7806305769ff
+      fileIdentifier: 2800000
+      name: MRTK_TimelinePlay
+  - Name: MRTK_TimelineRecord
+    Ids:
+    - guid:
+        m_storage: c079cf55-f13c-1dc4-db7d-09053a51a40d
+      fileIdentifier: 2800000
+      name: MRTK_TimelineRecord
+  - Name: MRTK_TimelineRecordActive
+    Ids:
+    - guid:
+        m_storage: 6752387e-e218-1ee4-fbef-5cc74691b6ac
+      fileIdentifier: 2800000
+      name: MRTK_TimelineRecordActive
+  - Name: MRTK_TimelineStepBack
+    Ids:
+    - guid:
+        m_storage: fda1fd92-664e-84e4-38ea-8e4e243c3ddc
+      fileIdentifier: 2800000
+      name: MRTK_TimelineStepBack
+  - Name: MRTK_TimelineStepFwd
+    Ids:
+    - guid:
+        m_storage: 230b9815-5638-e544-892c-123d8d674737
+      fileIdentifier: 2800000
+      name: MRTK_TimelineStepFwd
+  - Name: MRTK_TimelineStop
+    Ids:
+    - guid:
+        m_storage: 41375d8b-68a1-46c4-db04-00cc632ed4e0
+      fileIdentifier: 2800000
+      name: MRTK_TimelineStop
+  - Name: MRTK_Toolbox_AppBar
+    Ids:
+    - guid:
+        m_storage: ac985c93-f2b3-ae04-3870-1f7205a4020c
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_AppBar
+  - Name: MRTK_Toolbox_Bezier_Tooltip
+    Ids:
+    - guid:
+        m_storage: ceba6033-2833-e364-aa56-92b372577b88
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Bezier_Tooltip
+  - Name: MRTK_Toolbox_ButtonHoloLens1
+    Ids:
+    - guid:
+        m_storage: aff31228-68ef-9284-297e-a9c6cdae1af3
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens1
+  - Name: MRTK_Toolbox_ButtonHoloLens1Toggle
+    Ids:
+    - guid:
+        m_storage: 90817d04-412b-ae04-1be4-412093144d5b
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens1Toggle
+  - Name: MRTK_Toolbox_ButtonHoloLens2_32x32mm
+    Ids:
+    - guid:
+        m_storage: cc7d7303-9741-f044-5bed-53631aba94fd
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_32x32mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_32x96mm
+    Ids:
+    - guid:
+        m_storage: e4990c5b-d70e-9e94-28cf-05db640d8c9a
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_32x96mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_48x48mm
+    Ids:
+    - guid:
+        m_storage: beb671eb-27ab-7194-48e8-588a87ad032c
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_48x48mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_64x64mm
+    Ids:
+    - guid:
+        m_storage: 4995d8ba-fef7-9984-69c1-e3a9bc4d52cb
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_64x64mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Bar3H
+    Ids:
+    - guid:
+        m_storage: c2130682-99a6-86c4-ca10-d6590776cabb
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Bar3H
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Bar3V
+    Ids:
+    - guid:
+        m_storage: db8f2302-c969-6214-0b17-7213b0b2847f
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Bar3V
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Bar4H
+    Ids:
+    - guid:
+        m_storage: 74169a32-9382-b9b4-ca11-90671d03b3c4
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Bar4H
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Bar4V
+    Ids:
+    - guid:
+        m_storage: 4afe6f58-ac62-6044-7862-d6136b62480c
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Bar4V
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Bar5H
+    Ids:
+    - guid:
+        m_storage: c8724c53-ce2f-d314-bac4-7234ca6d5c97
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Bar5H
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Bar5V
+    Ids:
+    - guid:
+        m_storage: 00daa0ac-a4c2-e304-ebe9-2282498f8e3d
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Bar5V
+  - Name: MRTK_Toolbox_ButtonHoloLens2_CheckBox_32x32mm
+    Ids:
+    - guid:
+        m_storage: 43d281e1-72a3-1394-99dc-3ff08ab251e8
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_CheckBox_32x32mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_CheckBox_32x96mm
+    Ids:
+    - guid:
+        m_storage: 4edc0a95-568f-aa94-a8dd-de969d864aad
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_CheckBox_32x96mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Radio_32x32mm
+    Ids:
+    - guid:
+        m_storage: a135bf27-0451-1464-58d4-31789a2b877b
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Radio_32x32mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Radio_32x96mm
+    Ids:
+    - guid:
+        m_storage: fed99053-b606-ccb4-1b32-6722e969913d
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Radio_32x96mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Switch_32x32mm
+    Ids:
+    - guid:
+        m_storage: 548fe410-6664-3584-493d-a966cad3069a
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Switch_32x32mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2_Switch_32x96mm
+    Ids:
+    - guid:
+        m_storage: 3a0efd75-b2a2-eff4-d9fa-51d674b83832
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Switch_32x96mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2Circular_32x32mm
+    Ids:
+    - guid:
+        m_storage: 897a48d8-7c79-6b54-7a48-8b50c59f3b2b
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2Circular_32x32mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2Circular_48x48mm
+    Ids:
+    - guid:
+        m_storage: 95a81ebb-4cc2-fdf4-98d1-c40b262b5496
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2Circular_48x48mm
+  - Name: MRTK_Toolbox_ButtonHoloLens2Toggle_32x32mm
+    Ids:
+    - guid:
+        m_storage: c9d54122-8492-6d34-d822-8ef734b22280
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2Toggle_32x32mm
+  - Name: MRTK_Toolbox_Checkbox
+    Ids:
+    - guid:
+        m_storage: aed86aff-d67f-8a74-189f-954afbe4f49a
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Checkbox
+  - Name: MRTK_Toolbox_Indicator_Bar
+    Ids:
+    - guid:
+        m_storage: f73575c9-c654-1884-ea68-8696c22a3362
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Indicator_Bar
+  - Name: MRTK_Toolbox_Indicator_Object
+    Ids:
+    - guid:
+        m_storage: 46e15363-6a8f-9b14-fb50-5385f63ad036
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Indicator_Object
+  - Name: MRTK_Toolbox_Indicator_Orbs
+    Ids:
+    - guid:
+        m_storage: c35439ea-7668-73b4-6995-e9344e0c55fd
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Indicator_Orbs
+  - Name: MRTK_Toolbox_Indicator_Ring
+    Ids:
+    - guid:
+        m_storage: 67a43c83-f4dc-a6c4-f8ba-89216990fe15
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Indicator_Ring
+  - Name: MRTK_Toolbox_NearMenu2x4
+    Ids:
+    - guid:
+        m_storage: 4e0217a1-1a18-98f4-29ff-30d12f807407
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_NearMenu2x4
+  - Name: MRTK_Toolbox_NearMenu3x1
+    Ids:
+    - guid:
+        m_storage: e3ef5146-7594-c4e4-49ad-aa0210597d40
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_NearMenu3x1
+  - Name: MRTK_Toolbox_NearMenu3x2
+    Ids:
+    - guid:
+        m_storage: 46da9147-b6be-58f4-993f-4d2b48ef1342
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_NearMenu3x2
+  - Name: MRTK_Toolbox_NearMenu3x3
+    Ids:
+    - guid:
+        m_storage: 5b812b02-9f93-b384-b9af-e48000f2642d
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_NearMenu3x3
+  - Name: MRTK_Toolbox_NearMenu4x1
+    Ids:
+    - guid:
+        m_storage: 452b9dfa-eee7-c454-2b50-7fcb90e2a2f9
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_NearMenu4x1
+  - Name: MRTK_Toolbox_NearMenu4x2
+    Ids:
+    - guid:
+        m_storage: bb29df3b-1269-3d44-896a-9ef54eacef76
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_NearMenu4x2
+  - Name: MRTK_Toolbox_Radial
+    Ids:
+    - guid:
+        m_storage: 1261bbcd-6dbf-c444-ea85-b6735fea1bed
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Radial
+  - Name: MRTK_Toolbox_RoundButton
+    Ids:
+    - guid:
+        m_storage: 070876ea-4fc8-8724-ab97-23576b8f336a
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_RoundButton
+  - Name: MRTK_Toolbox_SimpleLine_Tooltip
+    Ids:
+    - guid:
+        m_storage: a73f410a-dbfd-6424-cbf0-56bda6733cd2
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_SimpleLine_Tooltip
+  - Name: MRTK_Toolbox_Slate
+    Ids:
+    - guid:
+        m_storage: 18dbe6d0-bec6-8034-f8d1-5a2ab9a03b87
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Slate
+  - Name: MRTK_Toolbox_Slider
+    Ids:
+    - guid:
+        m_storage: 2f9e718a-2ecf-cd64-1ba2-70421afe1eae
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Slider
+  - Name: MRTK_Toolbox_Spline_Tooltip
+    Ids:
+    - guid:
+        m_storage: 2285ef4c-f935-6484-799e-a752fd558518
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_Spline_Tooltip
+  - Name: MRTK_Toolbox_ToggleSwitch
+    Ids:
+    - guid:
+        m_storage: a9a2985a-434b-a524-48c3-06636791b31f
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ToggleSwitch
+  - Name: MRTK_UnityUI_Button_Icon
+    Ids:
+    - guid:
+        m_storage: 071f7426-30b1-8a34-fbf0-cd0c484775c6
+      fileIdentifier: 2800000
+      name: MRTK_UnityUI_Button_Icon
+  - Name: MRTK_UnityUI_Checkbox_Icon
+    Ids:
+    - guid:
+        m_storage: 62f83ba8-63b9-b944-dadb-f1ccc5cb87d3
+      fileIdentifier: 2800000
+      name: MRTK_UnityUI_Checkbox_Icon
+  - Name: MRTK_UnityUI_Radial_Icon
+    Ids:
+    - guid:
+        m_storage: 79f643fc-c180-7784-abae-b12f23e75f2f
+      fileIdentifier: 2800000
+      name: MRTK_UnityUI_Radial_Icon
+  - Name: MRTK-Quest_Logo
+    Ids:
+    - guid:
+        m_storage: f05f7ccd-0102-4a34-89ae-7db829b37924
+      fileIdentifier: 2800000
+      name: MRTK-Quest_Logo
+  - Name: notification_box_5x1
+    Ids:
+    - guid:
+        m_storage: f4e13449-3897-b014-da71-a44287f51520
+      fileIdentifier: 2800000
+      name: notification_box_5x1
+  - Name: OculusControllersTouch_left_black
+    Ids:
+    - guid:
+        m_storage: f2237692-de96-24a4-692e-4b0440c5f476
+      fileIdentifier: 2800000
+      name: OculusControllersTouch_left_black
+  - Name: OculusControllersTouch_left_black_scaled
+    Ids:
+    - guid:
+        m_storage: d651fc00-b471-cfe4-4834-a222e9433461
+      fileIdentifier: 2800000
+      name: OculusControllersTouch_left_black_scaled
+  - Name: OculusControllersTouch_left_white
+    Ids:
+    - guid:
+        m_storage: 68157127-a155-0704-596f-2546ea8893d9
+      fileIdentifier: 2800000
+      name: OculusControllersTouch_left_white
+  - Name: OculusControllersTouch_left_white_scaled
+    Ids:
+    - guid:
+        m_storage: 8485eaad-dfc8-4964-7a3b-00d6006e6bc8
+      fileIdentifier: 2800000
+      name: OculusControllersTouch_left_white_scaled
+  - Name: OculusControllersTouch_right_black
+    Ids:
+    - guid:
+        m_storage: 0b431d73-cc83-7214-fbf6-7cab3535f975
+      fileIdentifier: 2800000
+      name: OculusControllersTouch_right_black
+  - Name: OculusControllersTouch_right_black_scaled
+    Ids:
+    - guid:
+        m_storage: 0ea40b84-2547-d784-082e-bf2698d3f08b
+      fileIdentifier: 2800000
+      name: OculusControllersTouch_right_black_scaled
+  - Name: OculusControllersTouch_right_white
+    Ids:
+    - guid:
+        m_storage: 28ea40d5-0737-d3c4-7af0-18f7f3ea24ee
+      fileIdentifier: 2800000
+      name: OculusControllersTouch_right_white
+  - Name: OculusControllersTouch_right_white_scaled
+    Ids:
+    - guid:
+        m_storage: 2f3bf31b-da2b-d844-39e4-77aac79990ca
+      fileIdentifier: 2800000
+      name: OculusControllersTouch_right_white_scaled
+  - Name: OculusRemoteController_black
+    Ids:
+    - guid:
+        m_storage: 2b90b3ff-0e9f-24a4-3a1f-8ffacaa12ca7
+      fileIdentifier: 2800000
+      name: OculusRemoteController_black
+  - Name: OculusRemoteController_black_scaled
+    Ids:
+    - guid:
+        m_storage: 4f391b0f-78f0-f294-585d-13e6e4ddbcc4
+      fileIdentifier: 2800000
+      name: OculusRemoteController_black_scaled
+  - Name: OculusRemoteController_white
+    Ids:
+    - guid:
+        m_storage: b98b3e1f-52d8-0b34-a8c2-a7a75d3e70ec
+      fileIdentifier: 2800000
+      name: OculusRemoteController_white
+  - Name: OculusRemoteController_white_scaled
+    Ids:
+    - guid:
+        m_storage: 96d001f4-572c-a3e4-485a-62e1a049524e
+      fileIdentifier: 2800000
+      name: OculusRemoteController_white_scaled
+  - Name: Panel_albedo
+    Ids:
+    - guid:
+        m_storage: 7b551659-cf43-4924-2ba7-2d82b4f9cdc7
+      fileIdentifier: 2800000
+      name: Panel_albedo
+  - Name: PanExampleContent
+    Ids:
+    - guid:
+        m_storage: c4ef4f1a-2132-9834-b834-a089722652f1
+      fileIdentifier: 2800000
+      name: PanExampleContent
+  - Name: PhysicalTouch
+    Ids:
+    - guid:
+        m_storage: 40aaa496-70be-cd54-a9a1-33bfcf2012fb
+      fileIdentifier: 2800000
+      name: PhysicalTouch
+  - Name: PianoKeys_DIF
+    Ids:
+    - guid:
+        m_storage: bb3fa609-02dd-45d4-7af0-ab86831f8c2c
+      fileIdentifier: 2800000
+      name: PianoKeys_DIF
+  - Name: PianoKeys_NM
+    Ids:
+    - guid:
+        m_storage: 6e452eb1-6719-c234-cb5b-06d5f0a00834
+      fileIdentifier: 2800000
+      name: PianoKeys_NM
+  - Name: Placeholder
+    Ids:
+    - guid:
+        m_storage: 2adc8135-dd93-6004-db37-d5cead85f951
+      fileIdentifier: 2800000
+      name: Placeholder
+  - Name: PlaceholderIcon
+    Ids:
+    - guid:
+        m_storage: 29b54a82-db8f-0554-986b-dcdb1e53b4e9
+      fileIdentifier: 2800000
+      name: PlaceholderIcon
+  - Name: PlayTexture
+    Ids:
+    - guid:
+        m_storage: c91313de-4a57-9684-fb5a-4d33009a2497
+      fileIdentifier: 2800000
+      name: PlayTexture
+  - Name: RainbowButton
+    Ids:
+    - guid:
+        m_storage: e7e105f1-70f3-abb4-982e-01be68c40563
+      fileIdentifier: 2800000
+      name: RainbowButton
+  - Name: RainbowLine
+    Ids:
+    - guid:
+        m_storage: 0dabc6cd-a704-92b4-8953-0619922616a8
+      fileIdentifier: 2800000
+      name: RainbowLine
+  - Name: RecordButton
+    Ids:
+    - guid:
+        m_storage: d6cb64fe-b90e-0314-f9c6-e885fcc3d39b
+      fileIdentifier: 2800000
+      name: RecordButton
+  - Name: RecordTexture
+    Ids:
+    - guid:
+        m_storage: d867b2e3-61e9-0944-b8b1-ee90338f4350
+      fileIdentifier: 2800000
+      name: RecordTexture
+  - Name: ResetRotation
+    Ids:
+    - guid:
+        m_storage: aa45486a-0040-b094-2a3f-e77bcba4ff4c
+      fileIdentifier: 2800000
+      name: ResetRotation
+  - Name: RustedIron_albedo
+    Ids:
+    - guid:
+        m_storage: b43e6b5c-c103-4971-b8dc-bb3ed95217fe
+      fileIdentifier: 2800000
+      name: RustedIron_albedo
+  - Name: RustedIron_channel
+    Ids:
+    - guid:
+        m_storage: 6392e9fd-2e0d-6b44-d932-c8bb2c062fdd
+      fileIdentifier: 2800000
+      name: RustedIron_channel
+  - Name: RustedIron_normal
+    Ids:
+    - guid:
+        m_storage: 07e37764-5ecb-440b-b56a-3d97bf914134
+      fileIdentifier: 2800000
+      name: RustedIron_normal
+  - Name: script_icon
+    Ids:
+    - guid:
+        m_storage: 961230b2-9c29-4bb7-8005-4c5d02eb6180
+      fileIdentifier: 2800000
+      name: script_icon
+  - Name: scrollbar
+    Ids:
+    - guid:
+        m_storage: 71ba3078-e287-b134-2882-989dd4bf8e55
+      fileIdentifier: 2800000
+      name: scrollbar
+  - Name: scrollbarhandle
+    Ids:
+    - guid:
+        m_storage: 0ab2865c-7e99-1d94-78dc-bc054fb4338d
+      fileIdentifier: 2800000
+      name: scrollbarhandle
+  - Name: SectionHeader_Dark
+    Ids:
+    - guid:
+        m_storage: fb5730e2-4283-d0c4-89e5-c7d0bee023d9
+      fileIdentifier: 2800000
+      name: SectionHeader_Dark
+  - Name: SectionHeader_Light
+    Ids:
+    - guid:
+        m_storage: e3b0f810-fdea-84e4-0ab4-ba20f256f7e8
+      fileIdentifier: 2800000
+      name: SectionHeader_Light
+  - Name: settings_icon
+    Ids:
+    - guid:
+        m_storage: 4f9f54f9-4784-4122-8dea-18a2c828cfc6
+      fileIdentifier: 2800000
+      name: settings_icon
+  - Name: ShaderBall_albedo
+    Ids:
+    - guid:
+        m_storage: 3f4d23ee-9cee-d344-593b-be0526ab1d46
+      fileIdentifier: 2800000
+      name: ShaderBall_albedo
+  - Name: ShaderBall_ao
+    Ids:
+    - guid:
+        m_storage: 32c57306-df74-5a14-7a2e-02f8827a8cdc
+      fileIdentifier: 2800000
+      name: ShaderBall_ao
+  - Name: ShaderBallNoise_albedo
+    Ids:
+    - guid:
+        m_storage: c002272d-1f63-bd44-8acd-b2375eb9a94d
+      fileIdentifier: 2800000
+      name: ShaderBallNoise_albedo
+  - Name: shapes_icon
+    Ids:
+    - guid:
+        m_storage: a3a54cef-ff9e-4d9c-82dc-d401480a8033
+      fileIdentifier: 2800000
+      name: shapes_icon
+  - Name: spatial_icon
+    Ids:
+    - guid:
+        m_storage: 3d652c19-bde2-4a29-8718-39929991b0be
+      fileIdentifier: 2800000
+      name: spatial_icon
+  - Name: spatial_understanding_icon
+    Ids:
+    - guid:
+        m_storage: b44193be-762b-4e3a-a870-3213d677338d
+      fileIdentifier: 2800000
+      name: spatial_understanding_icon
+  - Name: springs
+    Ids:
+    - guid:
+        m_storage: 3f20d61c-40c3-ff34-89e3-c14bfeb211e6
+      fileIdentifier: 2800000
+      name: springs
+  - Name: StopTexture
+    Ids:
+    - guid:
+        m_storage: 375eed97-2162-2324-3984-8c636aab9117
+      fileIdentifier: 2800000
+      name: StopTexture
+  - Name: sv0
+    Ids:
+    - guid:
+        m_storage: 6344c474-9a58-54a4-fb03-3def626a8547
+      fileIdentifier: 2800000
+      name: sv0
+  - Name: sv1
+    Ids:
+    - guid:
+        m_storage: 4af5db22-4464-bf34-cb8f-dc70ee470b65
+      fileIdentifier: 2800000
+      name: sv1
+  - Name: sv10
+    Ids:
+    - guid:
+        m_storage: eabaead8-25c4-fa84-6947-4a08de620d78
+      fileIdentifier: 2800000
+      name: sv10
+  - Name: sv11
+    Ids:
+    - guid:
+        m_storage: b7c2f847-b307-3494-5a20-fd895bfd2717
+      fileIdentifier: 2800000
+      name: sv11
+  - Name: sv12
+    Ids:
+    - guid:
+        m_storage: 61438131-b4fd-ac44-6a91-f664f1770aad
+      fileIdentifier: 2800000
+      name: sv12
+  - Name: sv13
+    Ids:
+    - guid:
+        m_storage: 1520ffe2-2e03-8294-9b34-d64a73900077
+      fileIdentifier: 2800000
+      name: sv13
+  - Name: sv14
+    Ids:
+    - guid:
+        m_storage: e331c375-9dc6-afb4-086a-58238fc6934c
+      fileIdentifier: 2800000
+      name: sv14
+  - Name: sv15
+    Ids:
+    - guid:
+        m_storage: 6deea620-179c-aad4-d97d-51e0e6e03010
+      fileIdentifier: 2800000
+      name: sv15
+  - Name: sv16
+    Ids:
+    - guid:
+        m_storage: 8a0da391-9302-1fa4-cb9b-71d883d30b97
+      fileIdentifier: 2800000
+      name: sv16
+  - Name: sv17
+    Ids:
+    - guid:
+        m_storage: c82628e7-a85e-39c4-181b-8f4bbc022896
+      fileIdentifier: 2800000
+      name: sv17
+  - Name: sv18
+    Ids:
+    - guid:
+        m_storage: 3ba76ce0-e2c9-a7c4-5801-facdc7e24384
+      fileIdentifier: 2800000
+      name: sv18
+  - Name: sv19
+    Ids:
+    - guid:
+        m_storage: b866a23e-6fb7-94a4-5bb5-71ce249f1c93
+      fileIdentifier: 2800000
+      name: sv19
+  - Name: sv2
+    Ids:
+    - guid:
+        m_storage: 0ac4e434-e8bf-54a4-18c7-e6ff28cdf07b
+      fileIdentifier: 2800000
+      name: sv2
+  - Name: sv3
+    Ids:
+    - guid:
+        m_storage: 8a86432c-6c39-2234-79e7-d6b663242ae9
+      fileIdentifier: 2800000
+      name: sv3
+  - Name: sv4
+    Ids:
+    - guid:
+        m_storage: 739d0ad3-b6c1-0dc4-9b8a-45caf9002249
+      fileIdentifier: 2800000
+      name: sv4
+  - Name: sv5
+    Ids:
+    - guid:
+        m_storage: edf886be-8536-b924-8994-f01ae476fe11
+      fileIdentifier: 2800000
+      name: sv5
+  - Name: sv6
+    Ids:
+    - guid:
+        m_storage: b2c8cdd0-abb0-99e4-3b24-fe3c1944e166
+      fileIdentifier: 2800000
+      name: sv6
+  - Name: sv7
+    Ids:
+    - guid:
+        m_storage: 2e1868a1-5829-5364-59f5-d0022d6ec0b5
+      fileIdentifier: 2800000
+      name: sv7
+  - Name: sv8
+    Ids:
+    - guid:
+        m_storage: 426a1fee-d732-8674-1995-65d08aa1abe4
+      fileIdentifier: 2800000
+      name: sv8
+  - Name: sv9
+    Ids:
+    - guid:
+        m_storage: ec74779a-ec7b-9eb4-aa02-bc94fe6c78c9
+      fileIdentifier: 2800000
+      name: sv9
+  - Name: test_icon
+    Ids:
+    - guid:
+        m_storage: 731058d9-08be-6754-4b92-b0341f29d906
+      fileIdentifier: 2800000
+      name: test_icon
+  - Name: tex_blank_tile
+    Ids:
+    - guid:
+        m_storage: 88dc5d12-c582-1bf4-d99e-dd588f6c19e6
+      fileIdentifier: 2800000
+      name: tex_blank_tile
+  - Name: tex_blurred_circle
+    Ids:
+    - guid:
+        m_storage: 371d0f97-7306-f054-aae6-177ae97ce9a2
+      fileIdentifier: 2800000
+      name: tex_blurred_circle
+  - Name: tex_circle_border2
+    Ids:
+    - guid:
+        m_storage: 27adcdb1-ca8a-f984-48f7-d645587575d3
+      fileIdentifier: 2800000
+      name: tex_circle_border2
+  - Name: tex_circle_midborder
+    Ids:
+    - guid:
+        m_storage: 359a4a57-094b-0564-eaee-2eb77e6708e1
+      fileIdentifier: 2800000
+      name: tex_circle_midborder
+  - Name: tex_circle_plain
+    Ids:
+    - guid:
+        m_storage: 1745b43e-19a8-d754-1a42-fc1eec63a4d6
+      fileIdentifier: 2800000
+      name: tex_circle_plain
+  - Name: tex_drawCanvasForHeatmap
+    Ids:
+    - guid:
+        m_storage: 032b34b8-af7a-d294-0a2b-8f6b4071f7a2
+      fileIdentifier: 2800000
+      name: tex_drawCanvasForHeatmap
+  - Name: tex_heatramp
+    Ids:
+    - guid:
+        m_storage: 7c5fa517-d560-81d4-9819-4884b7b0a30e
+      fileIdentifier: 2800000
+      name: tex_heatramp
+  - Name: tex_icon_LoadData
+    Ids:
+    - guid:
+        m_storage: 3565ca4f-628f-e354-ea11-de03cef414d3
+      fileIdentifier: 2800000
+      name: tex_icon_LoadData
+  - Name: tex_icon_panzoom
+    Ids:
+    - guid:
+        m_storage: 0fb93582-447a-a2c4-db00-f1f5b4c8f3ba
+      fileIdentifier: 2800000
+      name: tex_icon_panzoom
+  - Name: tex_icon_Pause
+    Ids:
+    - guid:
+        m_storage: a281308b-46e5-ea34-fa9f-cb3f5060b315
+      fileIdentifier: 2800000
+      name: tex_icon_Pause
+  - Name: tex_icon_Play
+    Ids:
+    - guid:
+        m_storage: 43920eac-afd1-aad4-f9d8-bd2a68ca4ed5
+      fileIdentifier: 2800000
+      name: tex_icon_Play
+  - Name: tex_icon_scrolling
+    Ids:
+    - guid:
+        m_storage: 234e0efd-e09a-1844-1a4d-26b8d08a8092
+      fileIdentifier: 2800000
+      name: tex_icon_scrolling
+  - Name: tex_icon_StartRecording
+    Ids:
+    - guid:
+        m_storage: d2483c9e-ef6a-2514-297d-1504036e6d2f
+      fileIdentifier: 2800000
+      name: tex_icon_StartRecording
+  - Name: tex_icon_StopRecording
+    Ids:
+    - guid:
+        m_storage: c10bf9f9-1b15-d994-aa69-284726549fa8
+      fileIdentifier: 2800000
+      name: tex_icon_StopRecording
+  - Name: tex_icon_vis
+    Ids:
+    - guid:
+        m_storage: 4e350af9-8c6b-cda4-aaa1-45e8b6c7c503
+      fileIdentifier: 2800000
+      name: tex_icon_vis
+  - Name: tex_mrtk_tile
+    Ids:
+    - guid:
+        m_storage: aeb8024f-4fa8-9754-7a30-f2f450c0c230
+      fileIdentifier: 2800000
+      name: tex_mrtk_tile
+  - Name: tex_PanAndZoom_map
+    Ids:
+    - guid:
+        m_storage: a287f089-9516-f5e4-6a27-09d3973c2337
+      fileIdentifier: 2800000
+      name: tex_PanAndZoom_map
+  - Name: tex_PanAndZoom_text
+    Ids:
+    - guid:
+        m_storage: b190ddfc-9054-4334-cbf0-77f4eb42de50
+      fileIdentifier: 2800000
+      name: tex_PanAndZoom_text
+  - Name: tex_picture1
+    Ids:
+    - guid:
+        m_storage: fb78b174-3e28-1154-bb8f-15f565a65a07
+      fileIdentifier: 2800000
+      name: tex_picture1
+  - Name: tex_picture2
+    Ids:
+    - guid:
+        m_storage: d06776b6-c3e4-d6e4-bb27-5a957cd7ce9c
+      fileIdentifier: 2800000
+      name: tex_picture2
+  - Name: TimelineActivation
+    Ids:
+    - guid:
+        m_storage: 2887294c-c7f1-fe84-0bff-6e349409648d
+      fileIdentifier: 2800000
+      name: TimelineActivation
+    - guid:
+        m_storage: 359cf58d-5969-d1a4-aad2-9b095c7fc338
+      fileIdentifier: 2800000
+      name: TimelineActivation
+  - Name: TimelineAutokey
+    Ids:
+    - guid:
+        m_storage: 92b5e431-0629-b264-dad0-fb2cc196d818
+      fileIdentifier: 2800000
+      name: TimelineAutokey
+    - guid:
+        m_storage: af3aec62-2aef-40c4-5813-b39e405966a3
+      fileIdentifier: 2800000
+      name: TimelineAutokey
+  - Name: TimelineAutokey@2x
+    Ids:
+    - guid:
+        m_storage: af24c542-434a-0254-4822-2d576f61a956
+      fileIdentifier: 2800000
+      name: TimelineAutokey@2x
+    - guid:
+        m_storage: cf3fbf98-d5c3-f194-1bd9-c0256918a4c8
+      fileIdentifier: 2800000
+      name: TimelineAutokey@2x
+  - Name: TimelineAutokey_active
+    Ids:
+    - guid:
+        m_storage: 0a5e3e06-3c4e-1ab4-5999-cf6e40c13c07
+      fileIdentifier: 2800000
+      name: TimelineAutokey_active
+    - guid:
+        m_storage: e17ee608-87ef-dd04-3899-91a15ee0c578
+      fileIdentifier: 2800000
+      name: TimelineAutokey_active
+  - Name: TimelineAutokey_active@2x
+    Ids:
+    - guid:
+        m_storage: 183f7b75-4921-9ab4-7bec-b461a16df882
+      fileIdentifier: 2800000
+      name: TimelineAutokey_active@2x
+    - guid:
+        m_storage: f6717d61-970e-dba4-686c-297677881a77
+      fileIdentifier: 2800000
+      name: TimelineAutokey_active@2x
+  - Name: TimelineBottomShadow
+    Ids:
+    - guid:
+        m_storage: db66ea47-c764-23f4-a881-937d34495801
+      fileIdentifier: 2800000
+      name: TimelineBottomShadow
+  - Name: TimelineClipBG
+    Ids:
+    - guid:
+        m_storage: d44fc8b1-1425-e004-3aa7-c20a301ce707
+      fileIdentifier: 2800000
+      name: TimelineClipBG
+  - Name: TimelineClipFG
+    Ids:
+    - guid:
+        m_storage: 33b1871a-2d09-cfa4-59a9-3f4e8feb5c41
+      fileIdentifier: 2800000
+      name: TimelineClipFG
+  - Name: TimelineCollapseMarkerButtonDisabled
+    Ids:
+    - guid:
+        m_storage: 14793e81-74fe-3b04-ea59-07898393d93c
+      fileIdentifier: 2800000
+      name: TimelineCollapseMarkerButtonDisabled
+    - guid:
+        m_storage: ab4a984c-eda5-ef44-38b4-dd7d0c8325db
+      fileIdentifier: 2800000
+      name: TimelineCollapseMarkerButtonDisabled
+  - Name: TimelineCollapseMarkerButtonEnabled
+    Ids:
+    - guid:
+        m_storage: 1500816b-cf91-12a4-5bb0-71c4cc6b0e46
+      fileIdentifier: 2800000
+      name: TimelineCollapseMarkerButtonEnabled
+    - guid:
+        m_storage: b2d973d2-2210-e734-f91a-7633b8f101f9
+      fileIdentifier: 2800000
+      name: TimelineCollapseMarkerButtonEnabled
+  - Name: TimelineConnector
+    Ids:
+    - guid:
+        m_storage: a04f1625-bf50-0f64-e974-45265dfbcc93
+      fileIdentifier: 2800000
+      name: TimelineConnector
+  - Name: TimelineContinue
+    Ids:
+    - guid:
+        m_storage: 61c21f74-972b-a824-6b3e-a400a9231841
+      fileIdentifier: 2800000
+      name: TimelineContinue
+    - guid:
+        m_storage: f747f9cd-f03f-2ff4-18fe-728a77e8cbef
+      fileIdentifier: 2800000
+      name: TimelineContinue
+  - Name: TimelineCurvesOff
+    Ids:
+    - guid:
+        m_storage: 9dfea116-cd2b-d974-e801-73bcf8db4331
+      fileIdentifier: 2800000
+      name: TimelineCurvesOff
+    - guid:
+        m_storage: fe163a92-c54d-2a14-69c2-04b541041f09
+      fileIdentifier: 2800000
+      name: TimelineCurvesOff
+  - Name: TimelineCurvesOn
+    Ids:
+    - guid:
+        m_storage: 0ab0f166-6e70-7204-dbd2-5d05500361cf
+      fileIdentifier: 2800000
+      name: TimelineCurvesOn
+    - guid:
+        m_storage: 88e563d6-9bc6-49c4-dbf8-ffbe396fbcbe
+      fileIdentifier: 2800000
+      name: TimelineCurvesOn
+  - Name: TimelineDigIn
+    Ids:
+    - guid:
+        m_storage: b1d064d6-d808-29f4-eb37-0f679384ea1f
+      fileIdentifier: 2800000
+      name: TimelineDigIn
+  - Name: TimelineDisabledBackground
+    Ids:
+    - guid:
+        m_storage: 0304baf8-d224-f3e4-7b22-d872c8dcd412
+      fileIdentifier: 2800000
+      name: TimelineDisabledBackground
+    - guid:
+        m_storage: 412f7315-3f3a-3c54-9b67-b2a847741145
+      fileIdentifier: 2800000
+      name: TimelineDisabledBackground
+  - Name: TimelineDisplay
+    Ids:
+    - guid:
+        m_storage: 03ae22b9-de39-8914-4a9b-ebf8972b4fad
+      fileIdentifier: 2800000
+      name: TimelineDisplay
+  - Name: TimelineEditModeMixOFF
+    Ids:
+    - guid:
+        m_storage: 8fca5ed1-60cd-c544-0a4c-7561db4082b2
+      fileIdentifier: 2800000
+      name: TimelineEditModeMixOFF
+  - Name: TimelineEditModeMixON
+    Ids:
+    - guid:
+        m_storage: a82846d4-1464-fcf4-b962-ebdc815963f5
+      fileIdentifier: 2800000
+      name: TimelineEditModeMixON
+  - Name: TimelineEditModeReplaceOFF
+    Ids:
+    - guid:
+        m_storage: 09ae1468-6a02-d484-ab41-e76fd1efba14
+      fileIdentifier: 2800000
+      name: TimelineEditModeReplaceOFF
+  - Name: TimelineEditModeReplaceON
+    Ids:
+    - guid:
+        m_storage: 6d41c3e8-796a-4fd4-e808-40354039e4ac
+      fileIdentifier: 2800000
+      name: TimelineEditModeReplaceON
+  - Name: TimelineEditModeRippleOFF
+    Ids:
+    - guid:
+        m_storage: bd7b7cac-6eb0-c3f4-6978-1d9a729a1c94
+      fileIdentifier: 2800000
+      name: TimelineEditModeRippleOFF
+  - Name: TimelineEditModeRippleON
+    Ids:
+    - guid:
+        m_storage: c5c1f094-d9a9-b3f4-c9cc-6c3a87af871c
+      fileIdentifier: 2800000
+      name: TimelineEditModeRippleON
+  - Name: TimelineEndPlayback
+    Ids:
+    - guid:
+        m_storage: 6952cd3b-0f88-9174-49a8-fa4d19fc5009
+      fileIdentifier: 2800000
+      name: TimelineEndPlayback
+    - guid:
+        m_storage: c285802d-9d41-4814-fad5-92b90b223f15
+      fileIdentifier: 2800000
+      name: TimelineEndPlayback
+  - Name: TimelineEye
+    Ids:
+    - guid:
+        m_storage: 3e39a436-9cb0-7304-7960-7382c383f786
+      fileIdentifier: 2800000
+      name: TimelineEye
+    - guid:
+        m_storage: b93a8712-e801-77f4-6b3c-ff1a274b2dce
+      fileIdentifier: 2800000
+      name: TimelineEye
+  - Name: TimelineEye@2x
+    Ids:
+    - guid:
+        m_storage: 2dc127b7-c305-43c4-2812-7a6ddd0ee98f
+      fileIdentifier: 2800000
+      name: TimelineEye@2x
+    - guid:
+        m_storage: 631aaf57-db93-5334-4b41-fe203d0a8b62
+      fileIdentifier: 2800000
+      name: TimelineEye@2x
+  - Name: TimelineGroupBackground
+    Ids:
+    - guid:
+        m_storage: 6ca5daa3-4154-5194-0921-fa7e2c3db9e8
+      fileIdentifier: 2800000
+      name: TimelineGroupBackground
+  - Name: TimelineHeaderMarkerIcon
+    Ids:
+    - guid:
+        m_storage: bf1debab-2110-3154-b997-78ba6e074175
+      fileIdentifier: 2800000
+      name: TimelineHeaderMarkerIcon
+  - Name: TimelineHold
+    Ids:
+    - guid:
+        m_storage: a09fd8b5-d939-6c24-a96a-6de50cddc3b9
+      fileIdentifier: 2800000
+      name: TimelineHold
+    - guid:
+        m_storage: ddbd4524-9a13-3a84-6b2f-20e39b537565
+      fileIdentifier: 2800000
+      name: TimelineHold
+  - Name: TimelineIconClipIn
+    Ids:
+    - guid:
+        m_storage: 4171b549-9472-46b4-f957-9419d5698a7e
+      fileIdentifier: 2800000
+      name: TimelineIconClipIn
+    - guid:
+        m_storage: ab1e2f0d-fb0d-f5e4-0bb9-5359b3d8ed3a
+      fileIdentifier: 2800000
+      name: TimelineIconClipIn
+  - Name: TimelineIconClipOut
+    Ids:
+    - guid:
+        m_storage: 32f7e359-8d64-14c4-8912-7629e29af3f6
+      fileIdentifier: 2800000
+      name: TimelineIconClipOut
+    - guid:
+        m_storage: a7a968b2-04ed-77c4-ba90-be3ef3ee8551
+      fileIdentifier: 2800000
+      name: TimelineIconClipOut
+  - Name: TimelineInfiniteTrackNoShadow
+    Ids:
+    - guid:
+        m_storage: 69ff79f8-63a3-2ad4-4a94-97d4896d9d1c
+      fileIdentifier: 2800000
+      name: TimelineInfiniteTrackNoShadow
+    - guid:
+        m_storage: eae63adb-172f-1164-db61-a7f4bdfc3637
+      fileIdentifier: 2800000
+      name: TimelineInfiniteTrackNoShadow
+  - Name: TimelineKeyframe
+    Ids:
+    - guid:
+        m_storage: 8eba099e-b091-faf4-19fe-cdcd5cdabfd7
+      fileIdentifier: 2800000
+      name: TimelineKeyframe
+    - guid:
+        m_storage: f9fd2f33-5364-cda4-1937-eab39bf20049
+      fileIdentifier: 2800000
+      name: TimelineKeyframe
+  - Name: TimelineLockButton
+    Ids:
+    - guid:
+        m_storage: a3a859cd-c4dd-70d4-0b0d-0bcb44047de8
+      fileIdentifier: 2800000
+      name: TimelineLockButton
+    - guid:
+        m_storage: f41d3194-e87f-6df4-eb32-8916fd91d20c
+      fileIdentifier: 2800000
+      name: TimelineLockButton
+  - Name: TimelineLockButton@2x
+    Ids:
+    - guid:
+        m_storage: 9c0c3105-90ae-ee54-2a7a-4ca704b0660a
+      fileIdentifier: 2800000
+      name: TimelineLockButton@2x
+    - guid:
+        m_storage: d51d89aa-0191-27a4-e9c5-bec4e423a4d6
+      fileIdentifier: 2800000
+      name: TimelineLockButton@2x
+  - Name: TimelineLoop
+    Ids:
+    - guid:
+        m_storage: 360dded8-761e-81d4-d98c-10f469d55492
+      fileIdentifier: 2800000
+      name: TimelineLoop
+    - guid:
+        m_storage: c7df1e79-7b21-c774-f9b8-59d17f674737
+      fileIdentifier: 2800000
+      name: TimelineLoop
+  - Name: TimelineMarkerAreaButtonDisabled
+    Ids:
+    - guid:
+        m_storage: 33a52b41-b4de-5874-ca7d-a1da32067e39
+      fileIdentifier: 2800000
+      name: TimelineMarkerAreaButtonDisabled
+  - Name: TimelineMarkerAreaButtonEnabled
+    Ids:
+    - guid:
+        m_storage: d1eccbb4-25fd-acc4-ba53-ce4223f4ea30
+      fileIdentifier: 2800000
+      name: TimelineMarkerAreaButtonEnabled
+  - Name: TimelineMarkerItem
+    Ids:
+    - guid:
+        m_storage: 24b97c67-b63a-23b4-8bea-4036d28a5818
+      fileIdentifier: 2800000
+      name: TimelineMarkerItem
+    - guid:
+        m_storage: c133595e-3c10-0774-496e-03e66fa69259
+      fileIdentifier: 2800000
+      name: TimelineMarkerItem
+  - Name: TimelineMarkerItemCollapsed
+    Ids:
+    - guid:
+        m_storage: 7d4691eb-a756-5c34-ab78-5c00fbc27ff8
+      fileIdentifier: 2800000
+      name: TimelineMarkerItemCollapsed
+    - guid:
+        m_storage: f179d9a3-cccf-fb04-ba2e-27f681e9b147
+      fileIdentifier: 2800000
+      name: TimelineMarkerItemCollapsed
+  - Name: TimelineMarkerItemSelected
+    Ids:
+    - guid:
+        m_storage: 3dd65256-ca88-3754-4b3e-738c0d3ee0e2
+      fileIdentifier: 2800000
+      name: TimelineMarkerItemSelected
+    - guid:
+        m_storage: b6e9dc9a-ad58-4374-8a01-24b8925c3743
+      fileIdentifier: 2800000
+      name: TimelineMarkerItemSelected
+  - Name: Timeline-Marker-Multi-Overlay
+    Ids:
+    - guid:
+        m_storage: 75f26f1c-5495-68c4-e995-0a368bd08cb8
+      fileIdentifier: 2800000
+      name: Timeline-Marker-Multi-Overlay
+  - Name: Timeline-Marker-Warning-Overlay
+    Ids:
+    - guid:
+        m_storage: 945f4ece-c6df-6224-4b9e-bcc363833642
+      fileIdentifier: 2800000
+      name: Timeline-Marker-Warning-Overlay
+  - Name: TimelineOutline
+    Ids:
+    - guid:
+        m_storage: 829511f8-e35b-f3a4-0be0-37a1050f801c
+      fileIdentifier: 2800000
+      name: TimelineOutline
+  - Name: TimelinePingPong
+    Ids:
+    - guid:
+        m_storage: 88d697f3-8121-de44-3ba1-44702e5122d9
+      fileIdentifier: 2800000
+      name: TimelinePingPong
+    - guid:
+        m_storage: d3b5c4f7-d6b9-4f64-085b-3713bffa680e
+      fileIdentifier: 2800000
+      name: TimelinePingPong
+  - Name: TimelinePlayRange
+    Ids:
+    - guid:
+        m_storage: 43eeff8a-446b-3224-2a4f-b1a5c1bd7b8e
+      fileIdentifier: 2800000
+      name: TimelinePlayRange
+    - guid:
+        m_storage: 70e3f118-652b-9094-8856-89730ad3a47b
+      fileIdentifier: 2800000
+      name: TimelinePlayRange
+  - Name: TimelineSelector
+    Ids:
+    - guid:
+        m_storage: 73f5ebb6-4da7-b2a4-0ab6-bffac80f1a61
+      fileIdentifier: 2800000
+      name: TimelineSelector
+  - Name: TimelineSeqEnd
+    Ids:
+    - guid:
+        m_storage: 5dfe66e6-1e0d-2704-68ae-75349ff3a3eb
+      fileIdentifier: 2800000
+      name: TimelineSeqEnd
+  - Name: TimelineSignal
+    Ids:
+    - guid:
+        m_storage: 15845fb2-6c28-4694-7b4d-edb9fb348cc1
+      fileIdentifier: 2800000
+      name: TimelineSignal
+  - Name: TimelineSignalCollapsed
+    Ids:
+    - guid:
+        m_storage: a88fa20e-d164-bbe4-da6b-f533f94a3113
+      fileIdentifier: 2800000
+      name: TimelineSignalCollapsed
+    - guid:
+        m_storage: d91793cd-853a-2584-48e4-d5545bb38e45
+      fileIdentifier: 2800000
+      name: TimelineSignalCollapsed
+  - Name: TimelineSignalSelected
+    Ids:
+    - guid:
+        m_storage: 1a7852b1-b33b-8164-98b6-af1e739f5995
+      fileIdentifier: 2800000
+      name: TimelineSignalSelected
+    - guid:
+        m_storage: a5e21f4e-4666-9064-5980-dd0cf0b664bc
+      fileIdentifier: 2800000
+      name: TimelineSignalSelected
+  - Name: TimelineStartPlayback
+    Ids:
+    - guid:
+        m_storage: 5060c9f9-eb2f-7ee4-695b-638a21d8fe01
+      fileIdentifier: 2800000
+      name: TimelineStartPlayback
+    - guid:
+        m_storage: 824c4beb-0ca6-c934-bbc7-a26919302236
+      fileIdentifier: 2800000
+      name: TimelineStartPlayback
+  - Name: TimelineSwatch
+    Ids:
+    - guid:
+        m_storage: e50018fd-67fc-1564-59e4-014bdad3f5f6
+      fileIdentifier: 2800000
+      name: TimelineSwatch
+  - Name: TimelineTimeCursor
+    Ids:
+    - guid:
+        m_storage: 3b9e9b3d-9ade-1664-99e7-a17109ca73bf
+      fileIdentifier: 2800000
+      name: TimelineTimeCursor
+    - guid:
+        m_storage: ed665472-b4fe-e204-3a5c-1cc802beaa8e
+      fileIdentifier: 2800000
+      name: TimelineTimeCursor
+  - Name: TimelineWarning
+    Ids:
+    - guid:
+        m_storage: 1732e542-f535-d374-bbfa-7565fc78414e
+      fileIdentifier: 2800000
+      name: TimelineWarning
+  - Name: TMP - Dropdown Icon
+    Ids:
+    - guid:
+        m_storage: a7ec9e7a-d8b8-47b7-ae45-10af83c5d868
+      fileIdentifier: 2800000
+      name: TMP - Dropdown Icon
+  - Name: TMP - Font Asset Icon
+    Ids:
+    - guid:
+        m_storage: ee148e28-1f3c-41c5-b4ff-5f8a5afe5a6c
+      fileIdentifier: 2800000
+      name: TMP - Font Asset Icon
+  - Name: TMP - Input Field Icon
+    Ids:
+    - guid:
+        m_storage: 3ee40aa7-9cd2-42a5-b53b-0b0ca4f13f0f
+      fileIdentifier: 2800000
+      name: TMP - Input Field Icon
+  - Name: TMP - Sprite Asset Icon
+    Ids:
+    - guid:
+        m_storage: ec7c645d-9330-8c04-d884-0982af12101e
+      fileIdentifier: 2800000
+      name: TMP - Sprite Asset Icon
+  - Name: TMP - Text Component Icon
+    Ids:
+    - guid:
+        m_storage: 2fd6421f-253b-4ef1-a195-26541f9ffc0c
+      fileIdentifier: 2800000
+      name: TMP - Text Component Icon
+  - Name: toolkit_icon
+    Ids:
+    - guid:
+        m_storage: 93d49a6a-e68a-4f6c-a0fe-a653caaa74fc
+      fileIdentifier: 2800000
+      name: toolkit_icon
+  - Name: ux_icon
+    Ids:
+    - guid:
+        m_storage: 3b748943-b2ee-497c-b401-b923729b41c5
+      fileIdentifier: 2800000
+      name: ux_icon

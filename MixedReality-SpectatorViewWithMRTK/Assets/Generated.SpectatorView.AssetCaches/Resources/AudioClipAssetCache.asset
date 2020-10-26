@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c123ab49fdc47469535cccd517e6d3, type: 3}
+  m_Name: AudioClipAssetCache
+  m_EditorClassIdentifier: 
+  assets:
+  - Name: A
+    Ids:
+    - guid:
+        m_storage: 36e555a3-b848-ed84-4a67-74ec59b878d2
+      fileIdentifier: 8300000
+      name: A
+  - Name: B
+    Ids:
+    - guid:
+        m_storage: c376d654-67e4-f844-ba94-a19350918427
+      fileIdentifier: 8300000
+      name: B
+  - Name: BFlat
+    Ids:
+    - guid:
+        m_storage: cb811ff0-fcdb-b2a4-0a83-98f721cc28a1
+      fileIdentifier: 8300000
+      name: BFlat
+  - Name: C
+    Ids:
+    - guid:
+        m_storage: 269b9f0f-a8c9-30b4-ea7a-e2bf7b250820
+      fileIdentifier: 8300000
+      name: C
+    - guid:
+        m_storage: c9292cc9-ccb6-e104-e844-8c8aec5603ff
+      fileIdentifier: 8300000
+      name: C
+  - Name: C_Octave
+    Ids:
+    - guid:
+        m_storage: ebe03136-b6c6-de34-a9a4-cd1b32c1124d
+      fileIdentifier: 8300000
+      name: C_Octave
+  - Name: CSharp
+    Ids:
+    - guid:
+        m_storage: e4154763-f07a-db74-18e8-74d20d0bfc37
+      fileIdentifier: 8300000
+      name: CSharp
+  - Name: D
+    Ids:
+    - guid:
+        m_storage: dbaf577a-8176-a8a4-9aee-e479ce6fba46
+      fileIdentifier: 8300000
+      name: D
+  - Name: E
+    Ids:
+    - guid:
+        m_storage: 6bb977d2-eec3-3d34-e9d4-683d95a325da
+      fileIdentifier: 8300000
+      name: E
+  - Name: EFlat
+    Ids:
+    - guid:
+        m_storage: 5ad4c6b5-8804-52d4-a813-c8714b5d4338
+      fileIdentifier: 8300000
+      name: EFlat
+  - Name: F
+    Ids:
+    - guid:
+        m_storage: 1e3cd518-fc25-2894-f8dc-ede422f1792f
+      fileIdentifier: 8300000
+      name: F
+  - Name: FSharp
+    Ids:
+    - guid:
+        m_storage: 0008aa10-9f6a-9f34-b965-8d73a0c38e74
+      fileIdentifier: 8300000
+      name: FSharp
+  - Name: G
+    Ids:
+    - guid:
+        m_storage: 577b3022-35de-cc04-7a09-254a91858236
+      fileIdentifier: 8300000
+      name: G
+  - Name: GSharp
+    Ids:
+    - guid:
+        m_storage: b8c73329-dfc0-a344-a846-1642b241c30d
+      fileIdentifier: 8300000
+      name: GSharp
+  - Name: MRTK_ButtonPress
+    Ids:
+    - guid:
+        m_storage: 291bf932-6e51-7b04-89c2-ee53d0a6a63f
+      fileIdentifier: 8300000
+      name: MRTK_ButtonPress
+  - Name: MRTK_ButtonUnpress
+    Ids:
+    - guid:
+        m_storage: 40ae713d-df42-0714-bbc1-a3b5c3f2eac1
+      fileIdentifier: 8300000
+      name: MRTK_ButtonUnpress
+  - Name: MRTK_Gem
+    Ids:
+    - guid:
+        m_storage: 2193e906-0a08-8b24-f97f-48d1e1a4a862
+      fileIdentifier: 8300000
+      name: MRTK_Gem
+  - Name: MRTK_Manipulation_End
+    Ids:
+    - guid:
+        m_storage: bcae4cbc-e613-5d84-b9b0-4ee9e5b909f4
+      fileIdentifier: 8300000
+      name: MRTK_Manipulation_End
+  - Name: MRTK_Manipulation_Start
+    Ids:
+    - guid:
+        m_storage: a16c5388-5bdb-c544-6908-8880ea44a9fd
+      fileIdentifier: 8300000
+      name: MRTK_Manipulation_Start
+  - Name: MRTK_Move_End
+    Ids:
+    - guid:
+        m_storage: ec33d8a6-027c-1574-3908-12966f8aef94
+      fileIdentifier: 8300000
+      name: MRTK_Move_End
+  - Name: MRTK_Move_Start
+    Ids:
+    - guid:
+        m_storage: 72d90092-d0f1-a734-eb1c-fcf71b8fa2e4
+      fileIdentifier: 8300000
+      name: MRTK_Move_Start
+  - Name: MRTK_Notification
+    Ids:
+    - guid:
+        m_storage: 82bb32b8-900f-55c4-88f1-90d835ffcd99
+      fileIdentifier: 8300000
+      name: MRTK_Notification
+  - Name: MRTK_Rotate_Start
+    Ids:
+    - guid:
+        m_storage: 765efbcf-7ca1-7734-88ed-cc8ab6ba4923
+      fileIdentifier: 8300000
+      name: MRTK_Rotate_Start
+  - Name: MRTK_Rotate_Stop
+    Ids:
+    - guid:
+        m_storage: 9d90886b-b664-6244-e852-a0acb1de3a3b
+      fileIdentifier: 8300000
+      name: MRTK_Rotate_Stop
+  - Name: MRTK_Scale_Start
+    Ids:
+    - guid:
+        m_storage: bdc1f15a-0c97-6854-780a-dcd7e56cfb3e
+      fileIdentifier: 8300000
+      name: MRTK_Scale_Start
+  - Name: MRTK_Scale_Stop
+    Ids:
+    - guid:
+        m_storage: 23a78d13-1feb-8774-ebe5-dd1ea221933e
+      fileIdentifier: 8300000
+      name: MRTK_Scale_Stop
+  - Name: MRTK_Select_Main
+    Ids:
+    - guid:
+        m_storage: 06f9d598-e903-1364-6bbf-f63530142344
+      fileIdentifier: 8300000
+      name: MRTK_Select_Main
+  - Name: MRTK_Select_Secondary
+    Ids:
+    - guid:
+        m_storage: 848c1453-f717-7fb4-6a18-dff735a5fdc4
+      fileIdentifier: 8300000
+      name: MRTK_Select_Secondary
+  - Name: MRTK_Shell_Click_In
+    Ids:
+    - guid:
+        m_storage: 3448d870-fb0a-1b24-ab44-f20f2e1f982d
+      fileIdentifier: 8300000
+      name: MRTK_Shell_Click_In
+  - Name: MRTK_Shell_Click_Init
+    Ids:
+    - guid:
+        m_storage: 5e03cdaf-c880-15c4-7af4-cad5d65de327
+      fileIdentifier: 8300000
+      name: MRTK_Shell_Click_Init
+  - Name: MRTK_Shell_Click_Out
+    Ids:
+    - guid:
+        m_storage: e35ddb0c-8710-c294-9a37-a6975f6847db
+      fileIdentifier: 8300000
+      name: MRTK_Shell_Click_Out
+  - Name: MRTK_Slate_Release
+    Ids:
+    - guid:
+        m_storage: 45a90682-f74b-b0c4-1b65-994c63b74e60
+      fileIdentifier: 8300000
+      name: MRTK_Slate_Release
+  - Name: MRTK_Slate_Touch
+    Ids:
+    - guid:
+        m_storage: ac992f1e-c8cf-ba14-5b10-655b334ec711
+      fileIdentifier: 8300000
+      name: MRTK_Slate_Touch
+  - Name: MRTK_Slider_Grab
+    Ids:
+    - guid:
+        m_storage: 6c0efce9-e4f4-2434-4955-5af66e975f27
+      fileIdentifier: 8300000
+      name: MRTK_Slider_Grab
+  - Name: MRTK_Slider_Pass_Notch
+    Ids:
+    - guid:
+        m_storage: 0632575a-55cf-0934-9a99-9a10968f6395
+      fileIdentifier: 8300000
+      name: MRTK_Slider_Pass_Notch
+  - Name: MRTK_Slider_Release
+    Ids:
+    - guid:
+        m_storage: 32c01314-9113-ba24-cb26-7e1e3f6725c7
+      fileIdentifier: 8300000
+      name: MRTK_Slider_Release
+  - Name: MRTK_Tap
+    Ids:
+    - guid:
+        m_storage: 17042918-0f30-9a94-0b54-c1001e94e54c
+      fileIdentifier: 8300000
+      name: MRTK_Tap
+  - Name: MRTK_Voice_Confirmation
+    Ids:
+    - guid:
+        m_storage: 4075162b-d7e8-d9b4-387b-a77aeb751a0d
+      fileIdentifier: 8300000
+      name: MRTK_Voice_Confirmation
+  - Name: PolyHover
+    Ids:
+    - guid:
+        m_storage: eafa338c-e88f-c494-c9a1-4421ec6de352
+      fileIdentifier: 8300000
+      name: PolyHover
+  - Name: sound_Confirmation
+    Ids:
+    - guid:
+        m_storage: 9c496bad-a7bf-21e4-eb17-d275b19f4b25
+      fileIdentifier: 8300000
+      name: sound_Confirmation
+  - Name: sound_Fail
+    Ids:
+    - guid:
+        m_storage: 2826b03c-caa8-26a4-2af0-e68bfd49d948
+      fileIdentifier: 8300000
+      name: sound_Fail
+  - Name: sound_HandTrackingLost
+    Ids:
+    - guid:
+        m_storage: 8f7f0c05-bba7-4364-797a-5379fff83f38
+      fileIdentifier: 8300000
+      name: sound_HandTrackingLost
+  - Name: sound_Success
+    Ids:
+    - guid:
+        m_storage: 570d5c84-cf16-3914-c8af-df35290ea64e
+      fileIdentifier: 8300000
+      name: sound_Success
+  - Name: sound_TapDown
+    Ids:
+    - guid:
+        m_storage: 9a10deba-f848-3ae4-9aa9-1211098634f1
+      fileIdentifier: 8300000
+      name: sound_TapDown
+  - Name: sound_TapUp
+    Ids:
+    - guid:
+        m_storage: 59244bce-6dca-9494-ebc8-81d9543fa339
+      fileIdentifier: 8300000
+      name: sound_TapUp
+  - Name: sound_TargetSelected
+    Ids:
+    - guid:
+        m_storage: 13ad719f-1462-0654-f8f7-588baaa5f9c4
+      fileIdentifier: 8300000
+      name: sound_TargetSelected
+  - Name: sound_TargetSelected_Correct
+    Ids:
+    - guid:
+        m_storage: 465a6a24-f76b-2074-6817-efe51906d98e
+      fileIdentifier: 8300000
+      name: sound_TargetSelected_Correct
+  - Name: sound_TargetSelected_Incorrect
+    Ids:
+    - guid:
+        m_storage: fadf362f-e835-b1a4-a812-7301dd2ab41c
+      fileIdentifier: 8300000
+      name: sound_TargetSelected_Incorrect
+  - Name: Sydney_Sounds_SignalLost_Loop
+    Ids:
+    - guid:
+        m_storage: 3e31be11-b607-dfd4-d84a-1313922956b4
+      fileIdentifier: 8300000
+      name: Sydney_Sounds_SignalLost_Loop
+  - Name: Vocals
+    Ids:
+    - guid:
+        m_storage: b11f0811-2e70-5954-2ae5-1c208db0af7c
+      fileIdentifier: 8300000
+      name: Vocals

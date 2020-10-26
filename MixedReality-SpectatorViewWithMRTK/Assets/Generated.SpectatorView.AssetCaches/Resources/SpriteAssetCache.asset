@@ -1,0 +1,579 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29111bdcab2ead418210130d901092a, type: 3}
+  m_Name: SpriteAssetCache
+  m_EditorClassIdentifier: 
+  assets:
+  - Name: AppBarAdjust
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300000
+      name: AppBarAdjust
+  - Name: AppBarClose
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300002
+      name: AppBarClose
+  - Name: AppBarDone
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300022
+      name: AppBarDone
+  - Name: AppBarHide
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300004
+      name: AppBarHide
+  - Name: AppBarShow
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300006
+      name: AppBarShow
+  - Name: Background
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-f000-000000000000
+      fileIdentifier: 10907
+      name: Background
+  - Name: BlueButton
+    Ids:
+    - guid:
+        m_storage: 229c3211-a796-6124-ca2b-aa412fae0b0f
+      fileIdentifier: 21300000
+      name: BlueButton
+  - Name: ButtonFollowMe
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300008
+      name: ButtonFollowMe
+  - Name: ButtonHandJoint
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300010
+      name: ButtonHandJoint
+  - Name: ButtonHandMesh
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300012
+      name: ButtonHandMesh
+  - Name: ButtonHandRay
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300014
+      name: ButtonHandRay
+  - Name: ButtonHome
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300016
+      name: ButtonHome
+  - Name: ButtonPin
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300018
+      name: ButtonPin
+  - Name: ButtonProfiler
+    Ids:
+    - guid:
+        m_storage: 20f25674-b951-2834-f889-38d45ed495d7
+      fileIdentifier: 21300020
+      name: ButtonProfiler
+  - Name: Checkmark
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-f000-000000000000
+      fileIdentifier: 10901
+      name: Checkmark
+  - Name: Circle
+    Ids:
+    - guid:
+        m_storage: 7e29bd78-484d-e854-79d1-437e5727d5a9
+      fileIdentifier: 21300000
+      name: Circle
+  - Name: CircleIcon
+    Ids:
+    - guid:
+        m_storage: 4dc2af51-2aa3-3704-19cc-d40d0abd485b
+      fileIdentifier: 21300000
+      name: CircleIcon
+  - Name: Dragger
+    Ids:
+    - guid:
+        m_storage: 9c59ac3f-173f-e794-1ac8-fd6375684e08
+      fileIdentifier: 21300000
+      name: Dragger
+  - Name: DropdownArrow
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-f000-000000000000
+      fileIdentifier: 10915
+      name: DropdownArrow
+  - Name: Generic_controller_black_scaled
+    Ids:
+    - guid:
+        m_storage: 01b6830a-93a3-6904-ab13-9325358f2d35
+      fileIdentifier: 21300000
+      name: Generic_controller_black_scaled
+  - Name: Generic_controller_white_scaled
+    Ids:
+    - guid:
+        m_storage: d7776e47-f36f-9954-58a9-2021b99f44d5
+      fileIdentifier: 21300000
+      name: Generic_controller_white_scaled
+  - Name: Gradient
+    Ids:
+    - guid:
+        m_storage: f4b99f53-cd2a-de94-28bd-5b5ded607c4b
+      fileIdentifier: 21300000
+      name: Gradient
+  - Name: IconHandActiveLeft
+    Ids:
+    - guid:
+        m_storage: a1bfd276-cecd-2504-aa94-f334850481d9
+      fileIdentifier: 21300000
+      name: IconHandActiveLeft
+  - Name: IconHandActiveRight
+    Ids:
+    - guid:
+        m_storage: c1ec574b-fa2b-e924-783d-e54868caee68
+      fileIdentifier: 21300000
+      name: IconHandActiveRight
+  - Name: IconHandIdleLeft
+    Ids:
+    - guid:
+        m_storage: 4162248f-738e-54a4-38ae-5c54e18f0784
+      fileIdentifier: 21300000
+      name: IconHandIdleLeft
+  - Name: IconHandIdleRight
+    Ids:
+    - guid:
+        m_storage: 84bd1d5b-692e-ba54-5b14-5e3ef5333c38
+      fileIdentifier: 21300000
+      name: IconHandIdleRight
+  - Name: IconHandUntrackedLeft
+    Ids:
+    - guid:
+        m_storage: f87b5f94-4e86-30e4-0874-8d05d33bed27
+      fileIdentifier: 21300000
+      name: IconHandUntrackedLeft
+  - Name: IconHandUntrackedRight
+    Ids:
+    - guid:
+        m_storage: e516b67f-b96d-9af4-b833-78670e1d4058
+      fileIdentifier: 21300000
+      name: IconHandUntrackedRight
+  - Name: InputFieldBackground
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-f000-000000000000
+      fileIdentifier: 10911
+      name: InputFieldBackground
+  - Name: KeyboardKeyGlyphs_Backspace
+    Ids:
+    - guid:
+        m_storage: 5eb0b332-d494-ca84-d9c3-8cf77ba0e12d
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_Backspace
+  - Name: KeyboardKeyGlyphs_Close
+    Ids:
+    - guid:
+        m_storage: 7029cbbb-ce5f-0ac4-dbc4-e93267bfddf4
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_Close
+  - Name: KeyboardKeyGlyphs_Dictation
+    Ids:
+    - guid:
+        m_storage: b575d7b7-d874-61b4-ea99-65b50e367249
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_Dictation
+  - Name: KeyboardKeyGlyphs_Down
+    Ids:
+    - guid:
+        m_storage: 161fc587-2226-6014-49a8-143014ece469
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_Down
+  - Name: KeyboardKeyGlyphs_Left
+    Ids:
+    - guid:
+        m_storage: ec8b4073-237c-9724-ba84-22f71fda3694
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_Left
+  - Name: KeyboardKeyGlyphs_Right
+    Ids:
+    - guid:
+        m_storage: 11e4524f-21fc-6434-abbb-ba83d70d0040
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_Right
+  - Name: KeyboardKeyGlyphs_Shift_Symbols
+    Ids:
+    - guid:
+        m_storage: 1dde69cc-d958-3fa4-f8df-ab2b590119ee
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_Shift_Symbols
+  - Name: KeyboardKeyGlyphs_UnShift_Symbols
+    Ids:
+    - guid:
+        m_storage: f6f44dc3-b387-f9d4-8bca-aee0038969c4
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_UnShift_Symbols
+  - Name: KeyboardKeyGlyphs_Up
+    Ids:
+    - guid:
+        m_storage: 73830216-a21a-45e4-9959-8b2624ef723e
+      fileIdentifier: 21300000
+      name: KeyboardKeyGlyphs_Up
+  - Name: Knob
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-f000-000000000000
+      fileIdentifier: 10913
+      name: Knob
+  - Name: MotionController_left_black
+    Ids:
+    - guid:
+        m_storage: a7d0f692-b982-a754-b8ae-2353d5e88d64
+      fileIdentifier: 21300000
+      name: MotionController_left_black
+  - Name: MotionController_left_black_scaled
+    Ids:
+    - guid:
+        m_storage: 03b731c9-9d54-dfb4-abde-4d7d1b1b9199
+      fileIdentifier: 21300000
+      name: MotionController_left_black_scaled
+  - Name: MotionController_left_white
+    Ids:
+    - guid:
+        m_storage: 78864818-2fdb-a814-396e-5258870a63f0
+      fileIdentifier: 21300000
+      name: MotionController_left_white
+  - Name: MotionController_left_white_scaled
+    Ids:
+    - guid:
+        m_storage: 2a95b12b-f068-e064-9889-84ff0723e935
+      fileIdentifier: 21300000
+      name: MotionController_left_white_scaled
+  - Name: MotionController_right_black
+    Ids:
+    - guid:
+        m_storage: 94c407cc-a908-01e4-7aea-d1757ce0ae05
+      fileIdentifier: 21300000
+      name: MotionController_right_black
+  - Name: MotionController_right_black_scaled
+    Ids:
+    - guid:
+        m_storage: 8e8fc4c5-d417-b754-280c-d920d79a5e7f
+      fileIdentifier: 21300000
+      name: MotionController_right_black_scaled
+  - Name: MotionController_right_white
+    Ids:
+    - guid:
+        m_storage: 6588fe84-4902-0f74-488b-8b667ce2f435
+      fileIdentifier: 21300000
+      name: MotionController_right_white
+  - Name: MotionController_right_white_scaled
+    Ids:
+    - guid:
+        m_storage: 417cf16d-d689-5c44-f821-49efa15170d5
+      fileIdentifier: 21300000
+      name: MotionController_right_white_scaled
+  - Name: MouseCursor
+    Ids:
+    - guid:
+        m_storage: 3038942a-8632-b664-795d-a551e3a65b25
+      fileIdentifier: 21300000
+      name: MouseCursor
+  - Name: MRTK_Logo_Black
+    Ids:
+    - guid:
+        m_storage: c2c00ef2-1cc4-4bcf-a096-95879e0ebecd
+      fileIdentifier: 21300000
+      name: MRTK_Logo_Black
+  - Name: MRTK_Logo_White
+    Ids:
+    - guid:
+        m_storage: 84643a20-fa6b-4fa7-969e-f84ad2e40992
+      fileIdentifier: 21300000
+      name: MRTK_Logo_White
+  - Name: OculusControllersTouch_left_black
+    Ids:
+    - guid:
+        m_storage: f2237692-de96-24a4-692e-4b0440c5f476
+      fileIdentifier: 21300000
+      name: OculusControllersTouch_left_black
+  - Name: OculusControllersTouch_left_black_scaled
+    Ids:
+    - guid:
+        m_storage: d651fc00-b471-cfe4-4834-a222e9433461
+      fileIdentifier: 21300000
+      name: OculusControllersTouch_left_black_scaled
+  - Name: OculusControllersTouch_left_white
+    Ids:
+    - guid:
+        m_storage: 68157127-a155-0704-596f-2546ea8893d9
+      fileIdentifier: 21300000
+      name: OculusControllersTouch_left_white
+  - Name: OculusControllersTouch_left_white_scaled
+    Ids:
+    - guid:
+        m_storage: 8485eaad-dfc8-4964-7a3b-00d6006e6bc8
+      fileIdentifier: 21300000
+      name: OculusControllersTouch_left_white_scaled
+  - Name: OculusControllersTouch_right_black
+    Ids:
+    - guid:
+        m_storage: 0b431d73-cc83-7214-fbf6-7cab3535f975
+      fileIdentifier: 21300000
+      name: OculusControllersTouch_right_black
+  - Name: OculusControllersTouch_right_black_scaled
+    Ids:
+    - guid:
+        m_storage: 0ea40b84-2547-d784-082e-bf2698d3f08b
+      fileIdentifier: 21300000
+      name: OculusControllersTouch_right_black_scaled
+  - Name: OculusControllersTouch_right_white
+    Ids:
+    - guid:
+        m_storage: 28ea40d5-0737-d3c4-7af0-18f7f3ea24ee
+      fileIdentifier: 21300000
+      name: OculusControllersTouch_right_white
+  - Name: OculusControllersTouch_right_white_scaled
+    Ids:
+    - guid:
+        m_storage: 2f3bf31b-da2b-d844-39e4-77aac79990ca
+      fileIdentifier: 21300000
+      name: OculusControllersTouch_right_white_scaled
+  - Name: OculusRemoteController_black
+    Ids:
+    - guid:
+        m_storage: 2b90b3ff-0e9f-24a4-3a1f-8ffacaa12ca7
+      fileIdentifier: 21300000
+      name: OculusRemoteController_black
+  - Name: OculusRemoteController_black_scaled
+    Ids:
+    - guid:
+        m_storage: 4f391b0f-78f0-f294-585d-13e6e4ddbcc4
+      fileIdentifier: 21300000
+      name: OculusRemoteController_black_scaled
+  - Name: OculusRemoteController_white
+    Ids:
+    - guid:
+        m_storage: b98b3e1f-52d8-0b34-a8c2-a7a75d3e70ec
+      fileIdentifier: 21300000
+      name: OculusRemoteController_white
+  - Name: OculusRemoteController_white_scaled
+    Ids:
+    - guid:
+        m_storage: 96d001f4-572c-a3e4-485a-62e1a049524e
+      fileIdentifier: 21300000
+      name: OculusRemoteController_white_scaled
+  - Name: Placeholder
+    Ids:
+    - guid:
+        m_storage: 2adc8135-dd93-6004-db37-d5cead85f951
+      fileIdentifier: 21300000
+      name: Placeholder
+  - Name: PlayTexture
+    Ids:
+    - guid:
+        m_storage: c91313de-4a57-9684-fb5a-4d33009a2497
+      fileIdentifier: 21300000
+      name: PlayTexture
+  - Name: RainbowButton
+    Ids:
+    - guid:
+        m_storage: e7e105f1-70f3-abb4-982e-01be68c40563
+      fileIdentifier: 21300000
+      name: RainbowButton
+  - Name: RainbowLine
+    Ids:
+    - guid:
+        m_storage: 0dabc6cd-a704-92b4-8953-0619922616a8
+      fileIdentifier: 21300000
+      name: RainbowLine
+  - Name: RecordButton
+    Ids:
+    - guid:
+        m_storage: d6cb64fe-b90e-0314-f9c6-e885fcc3d39b
+      fileIdentifier: 21300000
+      name: RecordButton
+  - Name: RecordTexture
+    Ids:
+    - guid:
+        m_storage: d867b2e3-61e9-0944-b8b1-ee90338f4350
+      fileIdentifier: 21300000
+      name: RecordTexture
+  - Name: ResetRotation
+    Ids:
+    - guid:
+        m_storage: aa45486a-0040-b094-2a3f-e77bcba4ff4c
+      fileIdentifier: 21300000
+      name: ResetRotation
+  - Name: scrollbar
+    Ids:
+    - guid:
+        m_storage: 71ba3078-e287-b134-2882-989dd4bf8e55
+      fileIdentifier: 21300000
+      name: scrollbar
+  - Name: scrollbarhandle
+    Ids:
+    - guid:
+        m_storage: 0ab2865c-7e99-1d94-78dc-bc054fb4338d
+      fileIdentifier: 21300000
+      name: scrollbarhandle
+  - Name: StopTexture
+    Ids:
+    - guid:
+        m_storage: 375eed97-2162-2324-3984-8c636aab9117
+      fileIdentifier: 21300000
+      name: StopTexture
+  - Name: sv0
+    Ids:
+    - guid:
+        m_storage: 6344c474-9a58-54a4-fb03-3def626a8547
+      fileIdentifier: 21300000
+      name: sv0
+  - Name: sv1
+    Ids:
+    - guid:
+        m_storage: 4af5db22-4464-bf34-cb8f-dc70ee470b65
+      fileIdentifier: 21300000
+      name: sv1
+  - Name: sv10
+    Ids:
+    - guid:
+        m_storage: eabaead8-25c4-fa84-6947-4a08de620d78
+      fileIdentifier: 21300000
+      name: sv10
+  - Name: sv11
+    Ids:
+    - guid:
+        m_storage: b7c2f847-b307-3494-5a20-fd895bfd2717
+      fileIdentifier: 21300000
+      name: sv11
+  - Name: sv12
+    Ids:
+    - guid:
+        m_storage: 61438131-b4fd-ac44-6a91-f664f1770aad
+      fileIdentifier: 21300000
+      name: sv12
+  - Name: sv13
+    Ids:
+    - guid:
+        m_storage: 1520ffe2-2e03-8294-9b34-d64a73900077
+      fileIdentifier: 21300000
+      name: sv13
+  - Name: sv14
+    Ids:
+    - guid:
+        m_storage: e331c375-9dc6-afb4-086a-58238fc6934c
+      fileIdentifier: 21300000
+      name: sv14
+  - Name: sv15
+    Ids:
+    - guid:
+        m_storage: 6deea620-179c-aad4-d97d-51e0e6e03010
+      fileIdentifier: 21300000
+      name: sv15
+  - Name: sv16
+    Ids:
+    - guid:
+        m_storage: 8a0da391-9302-1fa4-cb9b-71d883d30b97
+      fileIdentifier: 21300000
+      name: sv16
+  - Name: sv17
+    Ids:
+    - guid:
+        m_storage: c82628e7-a85e-39c4-181b-8f4bbc022896
+      fileIdentifier: 21300000
+      name: sv17
+  - Name: sv18
+    Ids:
+    - guid:
+        m_storage: 3ba76ce0-e2c9-a7c4-5801-facdc7e24384
+      fileIdentifier: 21300000
+      name: sv18
+  - Name: sv19
+    Ids:
+    - guid:
+        m_storage: b866a23e-6fb7-94a4-5bb5-71ce249f1c93
+      fileIdentifier: 21300000
+      name: sv19
+  - Name: sv2
+    Ids:
+    - guid:
+        m_storage: 0ac4e434-e8bf-54a4-18c7-e6ff28cdf07b
+      fileIdentifier: 21300000
+      name: sv2
+  - Name: sv3
+    Ids:
+    - guid:
+        m_storage: 8a86432c-6c39-2234-79e7-d6b663242ae9
+      fileIdentifier: 21300000
+      name: sv3
+  - Name: sv4
+    Ids:
+    - guid:
+        m_storage: 739d0ad3-b6c1-0dc4-9b8a-45caf9002249
+      fileIdentifier: 21300000
+      name: sv4
+  - Name: sv5
+    Ids:
+    - guid:
+        m_storage: edf886be-8536-b924-8994-f01ae476fe11
+      fileIdentifier: 21300000
+      name: sv5
+  - Name: sv6
+    Ids:
+    - guid:
+        m_storage: b2c8cdd0-abb0-99e4-3b24-fe3c1944e166
+      fileIdentifier: 21300000
+      name: sv6
+  - Name: sv7
+    Ids:
+    - guid:
+        m_storage: 2e1868a1-5829-5364-59f5-d0022d6ec0b5
+      fileIdentifier: 21300000
+      name: sv7
+  - Name: sv8
+    Ids:
+    - guid:
+        m_storage: 426a1fee-d732-8674-1995-65d08aa1abe4
+      fileIdentifier: 21300000
+      name: sv8
+  - Name: sv9
+    Ids:
+    - guid:
+        m_storage: ec74779a-ec7b-9eb4-aa02-bc94fe6c78c9
+      fileIdentifier: 21300000
+      name: sv9
+  - Name: UIMask
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-f000-000000000000
+      fileIdentifier: 10917
+      name: UIMask
+  - Name: UISprite
+    Ids:
+    - guid:
+        m_storage: 00000000-0000-0000-f000-000000000000
+      fileIdentifier: 10905
+      name: UISprite

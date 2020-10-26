@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineTimeCursor_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 3b9e9b3d-9ade-1664-99e7-a17109ca73bf
+      fileIdentifier: 2800000
+      name: TimelineTimeCursor
+    Asset: {fileID: 2800000, guid: 3b9e9b3d9ade166499e7a17109ca73bf, type: 3}
+  - AssetId:
+      guid:
+        m_storage: ed665472-b4fe-e204-3a5c-1cc802beaa8e
+      fileIdentifier: 2800000
+      name: TimelineTimeCursor
+    Asset: {fileID: 2800000, guid: ed665472b4fee2043a5c1cc802beaa8e, type: 3}

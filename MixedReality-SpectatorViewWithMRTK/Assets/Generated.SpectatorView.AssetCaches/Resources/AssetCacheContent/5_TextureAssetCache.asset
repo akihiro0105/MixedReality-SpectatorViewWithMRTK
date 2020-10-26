@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: 5_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 3a203b93-1b1b-1ef4-f8fe-dcf179dac304
+      fileIdentifier: 2800000
+      name: 5
+    Asset: {fileID: 2800000, guid: 3a203b931b1b1ef4f8fedcf179dac304, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 7beab324-a3ae-3474-18d5-bd86646a4c13
+      fileIdentifier: 2800000
+      name: 5
+    Asset: {fileID: 2800000, guid: 7beab324a3ae347418d5bd86646a4c13, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 7c3aaa73-ed84-f5b4-fb1c-16afcb7bf70f
+      fileIdentifier: 2800000
+      name: 5
+    Asset: {fileID: 2800000, guid: 7c3aaa73ed84f5b4fb1c16afcb7bf70f, type: 3}
+  - AssetId:
+      guid:
+        m_storage: abc0278c-3696-5d64-3b5d-21021630ee68
+      fileIdentifier: 2800000
+      name: 5
+    Asset: {fileID: 2800000, guid: abc0278c36965d643b5d21021630ee68, type: 3}

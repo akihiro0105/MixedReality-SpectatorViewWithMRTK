@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineHold_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: a09fd8b5-d939-6c24-a96a-6de50cddc3b9
+      fileIdentifier: 2800000
+      name: TimelineHold
+    Asset: {fileID: 2800000, guid: a09fd8b5d9396c24a96a6de50cddc3b9, type: 3}
+  - AssetId:
+      guid:
+        m_storage: ddbd4524-9a13-3a84-6b2f-20e39b537565
+      fileIdentifier: 2800000
+      name: TimelineHold
+    Asset: {fileID: 2800000, guid: ddbd45249a133a846b2f20e39b537565, type: 3}

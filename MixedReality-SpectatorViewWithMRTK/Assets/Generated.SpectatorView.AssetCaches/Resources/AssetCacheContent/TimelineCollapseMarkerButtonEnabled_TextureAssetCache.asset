@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineCollapseMarkerButtonEnabled_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 1500816b-cf91-12a4-5bb0-71c4cc6b0e46
+      fileIdentifier: 2800000
+      name: TimelineCollapseMarkerButtonEnabled
+    Asset: {fileID: 2800000, guid: 1500816bcf9112a45bb071c4cc6b0e46, type: 3}
+  - AssetId:
+      guid:
+        m_storage: b2d973d2-2210-e734-f91a-7633b8f101f9
+      fileIdentifier: 2800000
+      name: TimelineCollapseMarkerButtonEnabled
+    Asset: {fileID: 2800000, guid: b2d973d22210e734f91a7633b8f101f9, type: 3}

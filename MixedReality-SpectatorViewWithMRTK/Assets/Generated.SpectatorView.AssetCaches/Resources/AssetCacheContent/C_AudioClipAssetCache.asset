@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: C_AudioClipAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 269b9f0f-a8c9-30b4-ea7a-e2bf7b250820
+      fileIdentifier: 8300000
+      name: C
+    Asset: {fileID: 8300000, guid: 269b9f0fa8c930b4ea7ae2bf7b250820, type: 3}
+  - AssetId:
+      guid:
+        m_storage: c9292cc9-ccb6-e104-e844-8c8aec5603ff
+      fileIdentifier: 8300000
+      name: C
+    Asset: {fileID: 8300000, guid: c9292cc9ccb6e104e8448c8aec5603ff, type: 3}

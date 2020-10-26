@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: Platonic_MeshAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 24d47aad-909b-7114-f99e-a8657d2883d8
+      fileIdentifier: 4300000
+      name: Platonic
+    Asset: {fileID: 4300000, guid: 24d47aad909b7114f99ea8657d2883d8, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 40bb9772-594a-9314-0a43-a9a4f5cf9356
+      fileIdentifier: 4300000
+      name: Platonic
+    Asset: {fileID: 4300000, guid: 40bb9772594a93140a43a9a4f5cf9356, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 78caa723-7047-3f34-19cf-71dc0206fb0b
+      fileIdentifier: 4300000
+      name: Platonic
+    Asset: {fileID: 4300000, guid: 78caa72370473f3419cf71dc0206fb0b, type: 3}
+  - AssetId:
+      guid:
+        m_storage: bb88669a-3463-b364-38d9-225a3ecd3a35
+      fileIdentifier: 4300000
+      name: Platonic
+    Asset: {fileID: 4300000, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
+  - AssetId:
+      guid:
+        m_storage: da9fdd3f-838d-f944-bacc-62655d5f4c0b
+      fileIdentifier: 4300000
+      name: Platonic
+    Asset: {fileID: 4300000, guid: da9fdd3f838df944bacc62655d5f4c0b, type: 3}

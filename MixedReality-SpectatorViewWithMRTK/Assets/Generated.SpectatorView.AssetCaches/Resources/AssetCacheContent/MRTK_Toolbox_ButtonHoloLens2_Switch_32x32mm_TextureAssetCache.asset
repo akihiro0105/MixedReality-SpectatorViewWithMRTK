@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: MRTK_Toolbox_ButtonHoloLens2_Switch_32x32mm_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 548fe410-6664-3584-493d-a966cad3069a
+      fileIdentifier: 2800000
+      name: MRTK_Toolbox_ButtonHoloLens2_Switch_32x32mm
+    Asset: {fileID: 2800000, guid: 548fe41066643584493da966cad3069a, type: 3}

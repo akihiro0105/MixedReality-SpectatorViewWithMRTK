@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: 6_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 08640538-9438-9784-7b0d-7d46ae188811
+      fileIdentifier: 2800000
+      name: 6
+    Asset: {fileID: 2800000, guid: 08640538943897847b0d7d46ae188811, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 3a3b17c9-ed7c-80c4-59e2-67bea86883a2
+      fileIdentifier: 2800000
+      name: 6
+    Asset: {fileID: 2800000, guid: 3a3b17c9ed7c80c459e267bea86883a2, type: 3}

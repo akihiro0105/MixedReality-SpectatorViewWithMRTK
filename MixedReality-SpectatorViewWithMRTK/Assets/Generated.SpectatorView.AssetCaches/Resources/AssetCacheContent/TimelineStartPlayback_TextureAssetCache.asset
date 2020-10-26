@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineStartPlayback_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 5060c9f9-eb2f-7ee4-695b-638a21d8fe01
+      fileIdentifier: 2800000
+      name: TimelineStartPlayback
+    Asset: {fileID: 2800000, guid: 5060c9f9eb2f7ee4695b638a21d8fe01, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 824c4beb-0ca6-c934-bbc7-a26919302236
+      fileIdentifier: 2800000
+      name: TimelineStartPlayback
+    Asset: {fileID: 2800000, guid: 824c4beb0ca6c934bbc7a26919302236, type: 3}

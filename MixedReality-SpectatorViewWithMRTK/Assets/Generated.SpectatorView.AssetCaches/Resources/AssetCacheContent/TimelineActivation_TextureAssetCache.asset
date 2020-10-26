@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: TimelineActivation_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 2887294c-c7f1-fe84-0bff-6e349409648d
+      fileIdentifier: 2800000
+      name: TimelineActivation
+    Asset: {fileID: 2800000, guid: 2887294cc7f1fe840bff6e349409648d, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 359cf58d-5969-d1a4-aad2-9b095c7fc338
+      fileIdentifier: 2800000
+      name: TimelineActivation
+    Asset: {fileID: 2800000, guid: 359cf58d5969d1a4aad29b095c7fc338, type: 3}

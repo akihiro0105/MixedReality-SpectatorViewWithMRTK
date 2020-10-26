@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: Face_MeshAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 5210fb79-62c4-a0c4-18e7-939db6ef7f51
+      fileIdentifier: 4300002
+      name: Face
+    Asset: {fileID: 4300002, guid: 5210fb7962c4a0c418e7939db6ef7f51, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 979fb0c2-1a0d-d104-7824-f2ce933e4f26
+      fileIdentifier: 4300000
+      name: Face
+    Asset: {fileID: 4300000, guid: 979fb0c21a0dd1047824f2ce933e4f26, type: 3}
+  - AssetId:
+      guid:
+        m_storage: 9b8d622e-06b5-ddc4-7bfd-77b86d50527c
+      fileIdentifier: 4300018
+      name: Face
+    Asset: {fileID: 4300018, guid: 9b8d622e06b5ddc47bfd77b86d50527c, type: 3}

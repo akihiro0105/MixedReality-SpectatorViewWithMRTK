@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/bin/
+/xcode/
+[Aa]ssets/MRTK
+[Aa]ssets/MRTK.meta
